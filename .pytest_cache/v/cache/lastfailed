@@ -1,0 +1,15 @@
+{
+  "Test/test_powerapp_flow.py::test_power_app_flow": true,
+  "ai/reuestform_product.py::test_requestform_product_flow": true,
+  "ai/verify_product.py::test_verify_product": true,
+  "ai/customoption_product.py::test_customoption_product_flow": true,
+  "ai/enterprompt.py::test_enterprompt_flow": true,
+  "ai/closepromptvideo.py::test_closepromptvideo_flow": true,
+  "ai/concurrentexecution.py::test_begin_button_flow[firefox]": true,
+  "ai/concurrentexecution.py::test_begin_button_flow[chromium]": true,
+  "Test/test_sample.py::test_example": true,
+  "ai/28612.py::test_contract_document_type_fields": true,
+  "ai/28612.py": true,
+  "ai/labelvalidation.py::test_validate_invoice_labels_present": true,
+  "ai/test_28885.py::test_contract_fields_visible": true
+}

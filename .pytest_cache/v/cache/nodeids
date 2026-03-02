@@ -1,0 +1,22 @@
+[
+  "Test/test_powerapp_flow.py::test_power_app_flow",
+  "Test/test_sample.py::test_example",
+  "ai/28612.py::test_contract_document_type_fields",
+  "ai/agree_product.py::test_begin_and_agree_button_flow",
+  "ai/begin_product.py::test_begin_button_flow",
+  "ai/closepromptvideo.py::test_closepromptvideo_flow",
+  "ai/concurrentexecution.py::test_begin_button_flow[chromium]",
+  "ai/concurrentexecution.py::test_begin_button_flow[firefox]",
+  "ai/customoption_product.py::test_customoption_product_flow",
+  "ai/enterprompt.py::test_enterprompt_flow",
+  "ai/labelvalidation.py::test_validate_invoice_labels_present",
+  "ai/multi.py::test_requestform_product_flow",
+  "ai/multiplebrowsers.py::test_begin_button_flow[chromium]",
+  "ai/multiplebrowsers.py::test_begin_button_flow[firefox]",
+  "ai/randomoptions_product.py::test_randomoptions_product_flow",
+  "ai/reuestform_product.py::test_requestform_product_flow",
+  "ai/test_28612.py::test_contract_fields_visible",
+  "ai/test_28885.py::test_contract_fields_visible",
+  "ai/test_28885.py::test_mortgage_1003",
+  "ai/verify_product.py::test_verify_product"
+]
