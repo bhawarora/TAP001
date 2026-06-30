@@ -5,46 +5,82 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ebed6a11-daec-4e2b-ac59-85cd01d5a39b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/1.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JPEG1.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JPEG3.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JPG2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JPG3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PNG1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Size 18.2 MB Zip.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/test_sample.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ai/labelvalidation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ai/multi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ai/multiplebrowsers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ai/multiuploads.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ai/test_28612.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ai/test_28885.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_upload1.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/5.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QA_Test_Execution_Summary.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README_TEST_RESULTS.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SOC/AI SOC Extractor_Application.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/promptvideo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/test_complete_qa_suite.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/test_data_extractor_v2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generate_report.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/organize_workspace.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_executor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_results_to_csv.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Scripts/auth.json" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/auth.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ai/begin_product.py" beforeDir="false" afterPath="$PROJECT_DIR$/ai/begin_product.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ai/closepromptvideo.py" beforeDir="false" afterPath="$PROJECT_DIR$/ai/closepromptvideo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ai/customoption_product.py" beforeDir="false" afterPath="$PROJECT_DIR$/ai/customoption_product.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ai/enterprompt.py" beforeDir="false" afterPath="$PROJECT_DIR$/ai/enterprompt.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ai/randomoptions_product.py" beforeDir="false" afterPath="$PROJECT_DIR$/ai/randomoptions_product.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ai/reuestform_product.py" beforeDir="false" afterPath="$PROJECT_DIR$/ai/reuestform_product.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ai/verify_product.py" beforeDir="false" afterPath="$PROJECT_DIR$/ai/verify_product.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/regenerate_auth.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ai/agree_product.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test/agree_product.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ai/begin_product.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test/begin_product.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ai/closepromptvideo.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test/closepromptvideo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ai/concurrentexecution.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test/concurrentexecution.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ai/customoption_product.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test/customoption_product.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ai/enterprompt.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test/enterprompt.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ai/labelvalidation.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test/labelvalidation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ai/multi.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test/multi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ai/multiplebrowsers.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test/multiplebrowsers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ai/multiuploads.py" beforeDir="false" afterPath="$PROJECT_DIR$/SOC/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ai/promptvideo.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test/multiuploads.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ai/randomoptions_product.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test/randomoptions_product.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ai/reuestform_product.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test/reuestform_product.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ai/test_28612.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test/test_28612.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ai/test_28885.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test/test_28885.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ai/verify_product.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test/verify_product.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/auth.json" beforeDir="false" afterPath="$PROJECT_DIR$/auth.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_upload.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/ai/concurrentexecution.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CopilotChats">
+    <option name="panelChat">
+      <chat>
+        <option name="activeSessionId" value="a55779d4-1f89-4602-be93-ef292c26f25d" />
+        <option name="sessions">
+          <session>
+            <option name="chatType" value="PANEL" />
+            <option name="id" value="9ddeea50-95c4-4463-87ca-216fac209672" />
+            <option name="modeId" value="Agent" />
+            <option name="modelType" value="builtin_family" />
+            <option name="modelValue" value="auto" />
+            <option name="status" value="Completed" />
+            <option name="targetType" value="LOCAL" />
+          </session>
+          <session>
+            <option name="chatType" value="PANEL" />
+            <option name="id" value="a55779d4-1f89-4602-be93-ef292c26f25d" />
+            <option name="modeId" value="Agent" />
+            <option name="modelType" value="builtin_family" />
+            <option name="modelValue" value="gpt-5-mini" />
+            <option name="targetType" value="LOCAL" />
+          </session>
+        </option>
+        <option name="type" value="PANEL" />
+      </chat>
+    </option>
+  </component>
   <component name="CopilotPersistence">
     <persistenceIdMap>
       <entry key="_C:/Users/bhawna.arora/PycharmProjects/PythonProject/TAP" value="39TCCIrszyJsZS86Rd6Gxvasxqq" />
     </persistenceIdMap>
   </component>
+  <component name="CopilotUserSelectedChatMode">
+    <option name="chatModeId" value="Agent" />
+  </component>
   <component name="CopilotUserSelectedModel">
     <selectedModels>
-      <entry key="chat-panel" value="GPT-4.1" />
-      <entry key="agent-panel" value="GPT-4.1" />
+      <entry key="chat-panel" value="GPT-5 mini" />
+      <entry key="agent-panel" value="GPT-5 mini" />
     </selectedModels>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -63,6 +99,20 @@
   <component name="ProjectId" id="39TCCIrszyJsZS86Rd6Gxvasxqq" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectSessionTemplates">
+    <option name="panelTemplate">
+      <template>
+        <option name="modeId" value="Agent" />
+        <option name="model">
+          <model>
+            <option name="modelType" value="builtin_id" />
+            <option name="modelValue" value="gpt-5-mini" />
+          </model>
+        </option>
+        <option name="targetType" value="LOCAL" />
+      </template>
+    </option>
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -98,17 +148,41 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/bhawna.arora/PycharmProjects/PythonProject/TAP",
-    "settings.editor.selected.configurable": "com.github.copilot.settings.mcp.McpConfigurable"
+    "last_opened_file_path": "C:/Users/bhawna.arora/PycharmProjects/PythonProject/TAP/SOC",
+    "settings.editor.selected.configurable": "com.github.copilot.settings.general.GeneralConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\bhawna.arora\PycharmProjects\PythonProject\TAP\SOC" />
+      <recent name="C:\Users\bhawna.arora\PycharmProjects\PythonProject\TAP\Data" />
       <recent name="C:\Users\bhawna.arora\PycharmProjects\PythonProject\TAP" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\bhawna.arora\PycharmProjects\PythonProject\TAP\Test" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Python tests in agree_product.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="TAP" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/Test/agree_product.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Python tests in agree_product.py" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>

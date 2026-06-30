@@ -1,0 +1,618 @@
+ID,Work Item Type,Title,Test Step,Step Action,Step Expected
+25609,Test Case,Request Form Navigation,,,
+,,,1,"Navigate to Power Apps 
+https://apps.powerapps.com/play/e/4d750f69-e41e-eef2-9f2d-0a1a538a9c00/a/a3c7aa7f-b23c-4abb-97fa-b5134f6f8c56?tenantId=16532572-d567-4d67-8727-f12f7bb6aed3&amp;hint=5fbbcdb0-8caf-41f1-ad8c-4c36bae0d8e6&amp;sourcetime=1731506807354&amp;source=portal&source=teamsLinkUnfurling
+","Power Apps page should load successfully.
+
+"
+,,,3,"Locate the ""Begin"" button associated with accessing the request form.
+
+
+
+","""Begin"" button is visible and clickable
+"
+,,,4,The user clicks on the Begin button,* A drawer containing the Request Form should open smoothly. 
+,,,5,"Verify the visibility of the request form
+",Request form is fully visible with all form fields properly displayed
+,,,6,"Check the availability of all required fields
+","All mandatory fields (e.g., Project ID, EMD Email, etc.) are present and enabled
+"
+,,,7,"Confirm that focus is set to the first input field
+","Cursor appears in the first form field (e.g., Name) upon drawer opening
+"
+21630,Test Case,Browser Accessibility,,,
+20928,Shared Steps,,1,Applictaion Navigation_SOC Report Extractor,
+,,,1.1,"Navigate to Power Apps
+
+","Power Apps page should load successfully.
+
+"
+,,,1.3,The user clicks on the Begin button,AI Attestation pop-up is displayed
+,,,1.4,The user clicks on the AGREE button in an AI Attestation pop-up,"The option should be accepted, and the user should be navigated to the request form.
+
+"
+,,,1.5,"Click on checkbox ""I agree to the TAP chargeback model. See details"" to submit the files.","* The ""Submit"" button should become active and clickable, allowing the user to submit the files."
+,,,2,Enter Submission Inputs,"Project ID, Engagement MD Email"
+,,,3,"Attach Document(s)
+","SOC Report Attachments, RCM (if applicable)"
+,,,4,"Click on Submit
+","User confirms submission of documents 
+"
+,,,5,"Observe that Output Screen Opens
+","Requested  submission should go through
+"
+,,,6,No Error Message Provided,"No Error message occurs when opening the App during the Application Navigation Phase, attaching document(s), attempting to fill in fields, or trying to submit a translation "
+,,,7,"Execute the above steps from 1-5 for Edge, Google Chrome etc. ","App should open properly, and User is able to submit the request."
+21632,Test Case,Video Tutorial Accessibility,,,
+20928,Shared Steps,,1,Applictaion Navigation_SOC Report Extractor,
+,,,1.1,"Navigate to Power Apps
+
+","Power Apps page should load successfully.
+
+"
+,,,1.3,The user clicks on the Begin button,AI Attestation pop-up is displayed
+,,,1.4,The user clicks on the AGREE button in an AI Attestation pop-up,"The option should be accepted, and the user should be navigated to the request form.
+
+"
+,,,1.5,"Click on checkbox ""I agree to the TAP chargeback model. See details"" to submit the files.","* The ""Submit"" button should become active and clickable, allowing the user to submit the files."
+,,,2,"Click on ""Video"" shown on Home Page",Video Opens to Full Screen
+,,,3,Confirm Video Tutorial Works as Expected,Tutorial should begin playing upon selection
+21770,Test Case,Submit Button Function - Positive,,,
+20928,Shared Steps,,1,Applictaion Navigation_SOC Report Extractor,
+,,,1.1,"Navigate to Power Apps
+
+","Power Apps page should load successfully.
+
+"
+,,,1.3,The user clicks on the Begin button,AI Attestation pop-up is displayed
+,,,1.4,The user clicks on the AGREE button in an AI Attestation pop-up,"The option should be accepted, and the user should be navigated to the request form.
+
+"
+,,,1.5,"Click on checkbox ""I agree to the TAP chargeback model. See details"" to submit the files.","* The ""Submit"" button should become active and clickable, allowing the user to submit the files."
+,,,2,Enter Submission Inputs,"Project ID, Engagement MD Email"
+,,,3,Attach Document(s),"SOC Report Attachments, RCM (if applicable)
+"
+,,,4,Click on Submit,User confirms Submission of Documents to be Extracted
+,,,5,Observe that Output Screen Opens,Requested submission goes through
+21769,Test Case,Submit Button Function - Negative,,,
+20928,Shared Steps,,1,Applictaion Navigation_SOC Report Extractor,
+,,,1.1,"Navigate to Power Apps
+
+","Power Apps page should load successfully.
+
+"
+,,,1.3,The user clicks on the Begin button,AI Attestation pop-up is displayed
+,,,1.4,The user clicks on the AGREE button in an AI Attestation pop-up,"The option should be accepted, and the user should be navigated to the request form.
+
+"
+,,,1.5,"Click on checkbox ""I agree to the TAP chargeback model. See details"" to submit the files.","* The ""Submit"" button should become active and clickable, allowing the user to submit the files."
+,,,2,"Attach Document(s) to be Translated
+","Relevant documents added to field
+"
+,,,3,"Leave at Least One Required Field Empty
+","Fields that are flagged as required are filled in with at least one exception, thus not allowing submission button to appear
+"
+,,,4,"Confirm Submission Option not available
+","User cannot confirm submission
+"
+21771,Test Case,Required Fields Entry - Positive,,,
+20928,Shared Steps,,1,Applictaion Navigation_SOC Report Extractor,
+,,,1.1,"Navigate to Power Apps
+
+","Power Apps page should load successfully.
+
+"
+,,,1.3,The user clicks on the Begin button,AI Attestation pop-up is displayed
+,,,1.4,The user clicks on the AGREE button in an AI Attestation pop-up,"The option should be accepted, and the user should be navigated to the request form.
+
+"
+,,,1.5,"Click on checkbox ""I agree to the TAP chargeback model. See details"" to submit the files.","* The ""Submit"" button should become active and clickable, allowing the user to submit the files."
+,,,2,"Fill in Required Fields
+","Fields that are flagged as required are filled in, correctly as defined by set parameters, thus registering as complete or ""filled-in"" by the application                                                                            required fields:                                                                               Project Number                                                                        EMD Email                                                                                        SOC report                                                                                          Accept the TAP Chargeback model checkbox                                                                             
+"
+,,,3,No Error/Message provided to User that a Required Field was Filled-in Incorrectly,No Error/Message provided to User that a Required Field was Filled-in Incorrectly
+21772,Test Case,Required Fields Entry - Negative,,,
+20928,Shared Steps,,1,Applictaion Navigation_SOC Report Extractor,
+,,,1.1,"Navigate to Power Apps
+
+","Power Apps page should load successfully.
+
+"
+,,,1.3,The user clicks on the Begin button,AI Attestation pop-up is displayed
+,,,1.4,The user clicks on the AGREE button in an AI Attestation pop-up,"The option should be accepted, and the user should be navigated to the request form.
+
+"
+,,,1.5,"Click on checkbox ""I agree to the TAP chargeback model. See details"" to submit the files.","* The ""Submit"" button should become active and clickable, allowing the user to submit the files."
+,,,2,"Enter Submission Inputs
+","Project ID, MD Email
+"
+,,,3,"Fill in Required Fields, but not in alignment with set parameters
+","Fields that are flagged as required are filled in, but at least one is not entered correctly as defined by set parameters. Required fields are Project Number, EMD email and upload SOC reports
+"
+,,,4,Do not enter Project Number and upload SOC report and submit the request,Submit Button will remain in Disabled form and User will not able to submit request
+21773,Test Case,Optional Fields Entry - Positive,,,
+20928,Shared Steps,,1,Applictaion Navigation_SOC Report Extractor,
+,,,1.1,"Navigate to Power Apps
+
+","Power Apps page should load successfully.
+
+"
+,,,1.3,The user clicks on the Begin button,AI Attestation pop-up is displayed
+,,,1.4,The user clicks on the AGREE button in an AI Attestation pop-up,"The option should be accepted, and the user should be navigated to the request form.
+
+"
+,,,1.5,"Click on checkbox ""I agree to the TAP chargeback model. See details"" to submit the files.","* The ""Submit"" button should become active and clickable, allowing the user to submit the files."
+,,,2,"Fill in Required Fields
+","Fields that are flagged as required are filled in, correctly as defined by set parameters, thus registering as complete or ""filled-in"" by the application
+"
+,,,3,Fill in Optional Fields,"Fields that are flagged as Optional are filled in, correctly as defined by set parameters, thus registering as complete or ""filled-in"" by the application. Optional fields are: RCM file
+"
+,,,4,No Error/Message provided to User that a Optional Field was Filled-in Incorrectly. Attach a xlsx format file ,"RCM.xlsx file is attached, and no error message shows up"
+,,,5,"
+","
+"
+21774,Test Case,Optional Fields Entry - Negative,,,
+20928,Shared Steps,,1,Applictaion Navigation_SOC Report Extractor,
+,,,1.1,"Navigate to Power Apps
+
+","Power Apps page should load successfully.
+
+"
+,,,1.3,The user clicks on the Begin button,AI Attestation pop-up is displayed
+,,,1.4,The user clicks on the AGREE button in an AI Attestation pop-up,"The option should be accepted, and the user should be navigated to the request form.
+
+"
+,,,1.5,"Click on checkbox ""I agree to the TAP chargeback model. See details"" to submit the files.","* The ""Submit"" button should become active and clickable, allowing the user to submit the files."
+,,,2,"Fill in Required Fields
+","Fields that are flagged as required are filled in, correctly as defined by set parameters, thus registering as complete or ""filled-in"" by the application
+"
+,,,3,"Fill in Optional Fields, but not in alignment with set parameters
+","Fields that are flagged as required are filled in, but at least one is not entered correctly as defined by set parameters
+"
+,,,4,"
+",Error/Message provided to User that a Required Field was Filled-in Incorrectly
+23452,Test Case,Assumptions are present in the front page of the app,,,
+20928,Shared Steps,,1,Applictaion Navigation_SOC Report Extractor,
+,,,1.1,"Navigate to Power Apps
+
+","Power Apps page should load successfully.
+
+"
+,,,1.3,The user clicks on the Begin button,AI Attestation pop-up is displayed
+,,,1.4,The user clicks on the AGREE button in an AI Attestation pop-up,"The option should be accepted, and the user should be navigated to the request form.
+
+"
+,,,1.5,"Click on checkbox ""I agree to the TAP chargeback model. See details"" to submit the files.","* The ""Submit"" button should become active and clickable, allowing the user to submit the files."
+,,,2,"Check if the ""Assumptions"" are present in the front page",Assumptions should be present in the front page
+23185,Test Case,Invalid Project ID Format - Negative,,,
+20928,Shared Steps,,1,Applictaion Navigation_SOC Report Extractor,
+,,,1.1,"Navigate to Power Apps
+
+","Power Apps page should load successfully.
+
+"
+,,,1.3,The user clicks on the Begin button,AI Attestation pop-up is displayed
+,,,1.4,The user clicks on the AGREE button in an AI Attestation pop-up,"The option should be accepted, and the user should be navigated to the request form.
+
+"
+,,,1.5,"Click on checkbox ""I agree to the TAP chargeback model. See details"" to submit the files.","* The ""Submit"" button should become active and clickable, allowing the user to submit the files."
+,,,2,"Enter a Project ID in Unsupported Format                                                                        Test Data : Input the Project ID 20000001-01
+","The application should reject 20000001-01 and display a clear validation message, such as:
+""Invalid Project ID format. Please use the format [correct format, e.g., 2000000101]."""
+23186,Test Case,Valid Project ID Format- Positive,,,
+23187,Shared Steps,,1,Application Navigation_Password,
+,,,1.1,"Navigate to Power Apps
+
+","Power Apps page should load successfully.
+
+"
+,,,1.2,Search & Select Password,"The Password details screen should be displayed.
+"
+,,,2,"Enter a Project ID in the correct format (e.g., 20123095 or another valid pattern).","Valid Project ID formats should be accepted
+"
+25936,Test Case,Project ID button - Positive,,,
+24969,Shared Steps,,1,Application Navigation_AAT,
+,,,1.1,"Navigate to Power Apps
+
+","Power Apps page should load successfully.
+
+"
+,,,1.3,"
+In the TAP Chargeback Guidance pop-up, select ""Yes, I accept the fee.""","The option should be accepted, and the user should be navigated to the request form."
+,,,1.4,Enter Submission Inputs                                                                                                                   * Project ID Number                                                                                                                      * Engagement MD Email                                                                                                                * Attachment Link,"* Project ID Number - ""ABC123""                                                                                                                    * Engagement MD Email - ""test@gmail.com""                                                                                                               * Attachment Link -                                                               1. Input Form.xlsx                                                                    2. Any one optional file i.e. ""Active Directory.xlsx/ Active Contractor.xlsx/ Termination List.xlsx/ Active Employee.xlsx""                                                        3. User List.xlsx"
+,,,2,Enter Submission Inputs,"* Project ID: ""20123095""                                                             * MD Email - ""test@protiviti.com""                                                                                           * Toggle On - Flag Generic Users?,                            * Toggle On - Combine Application Testsheets ?, * Toggle On - Include Terminations Report, Include AD Report, Include Contractor Report, Include Employee Report "
+,,,3,Click on the Project ID button,A popup window opens displaying a default list of Project IDs
+,,,4,Search for a Project ID using a valid keyword," The list dynamically filters and shows matching Project IDs (e.g., ""PRO001"", ""PRO202"")"
+,,,5,"Search with an invalid or unmatched keyword                                                                            Test Data : Enter a random/unmatched keyword in the popup (e.g., ""ZZZ"")","
+No Project IDs are shown; display message ""No matching records found""
+
+"
+,,,6,"Select a Project ID from the list (e.g., ""PRO001"")","The popup closes and the selected Project ID (""PRO001"") is auto filled in the Project ID field of the form"
+,,,7, Clear the entered keyword in the popup’s search bar,The full default list of Project IDs is shown again
+,,,8,Click outside the popup or on the close (X) icon,Popup closes and no changes are made to the Project ID field on the form
+,,,9, Select a Project ID using the popup and then Submit the form,"Form is submitted successfully, and the selected Project ID is saved/recorded correctly in the backend or confirmation view"
+25937,Test Case,Project ID button - Negative,,,
+24969,Shared Steps,,1,Application Navigation_AAT,
+,,,1.1,"Navigate to Power Apps
+
+","Power Apps page should load successfully.
+
+"
+,,,1.3,"
+In the TAP Chargeback Guidance pop-up, select ""Yes, I accept the fee.""","The option should be accepted, and the user should be navigated to the request form."
+,,,1.4,Enter Submission Inputs                                                                                                                   * Project ID Number                                                                                                                      * Engagement MD Email                                                                                                                * Attachment Link,"* Project ID Number - ""ABC123""                                                                                                                    * Engagement MD Email - ""test@gmail.com""                                                                                                               * Attachment Link -                                                               1. Input Form.xlsx                                                                    2. Any one optional file i.e. ""Active Directory.xlsx/ Active Contractor.xlsx/ Termination List.xlsx/ Active Employee.xlsx""                                                        3. User List.xlsx"
+,,,2,Enter Submission Inputs,"* Project ID: ""20123095""                                                             * MD Email - ""test@protiviti.com""                                                                                           * Toggle On - Flag Generic Users?,                            * Toggle On - Combine Application Testsheets ?, * Toggle On - Include Terminations Report, Include AD Report, Include Contractor Report, Include Employee Report "
+,,,3,"Click Project ID button when the popup fails to load                                                               * Simulate a network failure                                                                                                                   * Click the Project ID button
+
+
+
+"," An error message is displayed (e.g., ""Unable to load Project IDs. Please try again later""), and the popup does not open"
+,,,4,"Search with special characters or invalid input                                                                               Test Data: * Enter special characters or symbols (e.g., #$%^&*) into the search bar","It should handle the input gracefully, shows ""No results found"" or ignores special characters without crashing"
+,,,5,"Search with an invalid or unmatched keyword                                                                            Test Data: Enter a random/unmatched keyword in the popup (e.g., ""ZZZ"")","- No Project IDs are shown                                                                     - It should display message ""No matching records found""
+
+"
+,,,6,"Select a Project ID from the list (e.g., ""PRO001"")","The popup closes and the selected Project ID (""PRO001"") is auto filled in the Project ID field of the form"
+,,,7,Do not Select a Project ID using the popup and then Submit the form,"Validation error is shown: ""Project ID is required"" or form submission is blocked"
+25938,Test Case,Engagement MD Email - Positive,,,
+24969,Shared Steps,,1,Application Navigation_AAT,
+,,,1.1,"Navigate to Power Apps
+
+","Power Apps page should load successfully.
+
+"
+,,,1.3,"
+In the TAP Chargeback Guidance pop-up, select ""Yes, I accept the fee.""","The option should be accepted, and the user should be navigated to the request form."
+,,,1.4,Enter Submission Inputs                                                                                                                   * Project ID Number                                                                                                                      * Engagement MD Email                                                                                                                * Attachment Link,"* Project ID Number - ""ABC123""                                                                                                                    * Engagement MD Email - ""test@gmail.com""                                                                                                               * Attachment Link -                                                               1. Input Form.xlsx                                                                    2. Any one optional file i.e. ""Active Directory.xlsx/ Active Contractor.xlsx/ Termination List.xlsx/ Active Employee.xlsx""                                                        3. User List.xlsx"
+,,,2,Enter Submission Inputs,"* Project ID: ""20123095""                                                             * MD Email - ""test@protiviti.com""                                                                                           * Toggle On - Flag Generic Users?,                            * Toggle On - Combine Application Testsheets ?, * Toggle On - Include Terminations Report, Include AD Report, Include Contractor Report, Include Employee Report "
+,,,3,"Enter a valid keyword and get matching email suggestions                                                  * Click on the email address field                                                                                                    * Type a valid keyword (e.g., john)","A dropdown list appears with email addresses containing the keyword (e.g., john.doe@example.com)"
+,,,4,"Select an email from the suggestion list                                                                                                   * Type a keyword in the email field (e.g., anna)                                                                             * Click on one of the suggested results
+
+
+","The selected email (e.g., anna.smith@example.com) is populated in the field"
+,,,5,"Enter a complete valid email manually                                                                                   * Type a complete valid email (e.g., user.test@example.com)","The input is accepted; no validation errors are shown
+"
+,,,6,"Navigate suggestions using keyboard (arrow keys + enter)                                                         * Type a keyword to trigger suggestions                                                                                              * Use arrow keys to navigate the list and press Enter
+
+
+",Highlighted email is selected and populated in the field
+,,,7,"Clear selected email address                                                                                                        * Select or enter an email address                                                                                                   * Use the backspace key or clear button to remove it
+
+
+
+",The field becomes empty with no residual suggestions
+,,,8,"Excessive White Spaces:                                                                                                                       * Enter email ID with leading, trailing, or multiple spaces in between (e.g.,  user @ domain . com ).
+","The field should trim extra spaces and display results if the cleaned input is valid.
+"
+25939,Test Case,Engagement MD Email - Negative,,,
+24969,Shared Steps,,1,Application Navigation_AAT,
+,,,1.1,"Navigate to Power Apps
+
+","Power Apps page should load successfully.
+
+"
+,,,1.3,"
+In the TAP Chargeback Guidance pop-up, select ""Yes, I accept the fee.""","The option should be accepted, and the user should be navigated to the request form."
+,,,1.4,Enter Submission Inputs                                                                                                                   * Project ID Number                                                                                                                      * Engagement MD Email                                                                                                                * Attachment Link,"* Project ID Number - ""ABC123""                                                                                                                    * Engagement MD Email - ""test@gmail.com""                                                                                                               * Attachment Link -                                                               1. Input Form.xlsx                                                                    2. Any one optional file i.e. ""Active Directory.xlsx/ Active Contractor.xlsx/ Termination List.xlsx/ Active Employee.xlsx""                                                        3. User List.xlsx"
+,,,2,Enter Submission Inputs,"* Project ID: ""20123095""                                                             * MD Email - ""test@protiviti.com""                                                                                           * Toggle On - Flag Generic Users?,                            * Toggle On - Combine Application Testsheets ?, * Toggle On - Include Terminations Report, Include AD Report, Include Contractor Report, Include Employee Report "
+,,,3,"Enter a valid keyword and get matching email suggestions                                                  * Click on the email address field                                                                                                    * Type a valid keyword (e.g., john)","A dropdown list appears with email addresses containing the keyword (e.g., john.doe@example.com)"
+,,,4,"Select an email from the suggestion list                                                                                                   * Type a keyword in the email field (e.g., anna)                                                                             * Click on one of the suggested results
+
+
+","The selected email (e.g., anna.smith@example.com) is populated in the field"
+,,,5,"Enter a complete valid email manually                                                                                   * Type a complete valid email (e.g., user.test@example.com)","The input is accepted; no validation errors are shown
+"
+,,,6,"Navigate suggestions using keyboard (arrow keys + enter)                                                         * Type a keyword to trigger suggestions                                                                                              * Use arrow keys to navigate the list and press Enter
+
+
+",Highlighted email is selected and populated in the field
+,,,7,"Clear selected email address                                                                                                        * Select or enter an email address                                                                                                   * Use the backspace key or clear button to remove it
+
+
+
+",The field becomes empty with no residual suggestions
+23188,Test Case,Spell Check on Homepage,,,
+23187,Shared Steps,,1,Application Navigation_Password,
+,,,1.1,"Navigate to Power Apps
+
+","Power Apps page should load successfully.
+
+"
+,,,1.2,Search & Select Password,"The Password details screen should be displayed.
+"
+,,,2,"Observe all visible text elements, including 
+* Page headings* Paragraphs* Button labels* Menu items* Error messages (if any appear by default)* Tooltips or placeholders","All text elements on the homepage should be free of spelling errors.
+"
+,,,3,"Compare each visible text against standard spelling conventions and application content requirements
+","Text elements should match the intended content or labels specified in the design documentation.
+"
+23189,Test Case,Spell Check on AI Attestation pop-up,,,
+23187,Shared Steps,,1,Application Navigation_Password,
+,,,1.1,"Navigate to Power Apps
+
+","Power Apps page should load successfully.
+
+"
+,,,1.2,Search & Select Password,"The Password details screen should be displayed.
+"
+,,,2,"Observe all visible text elements, including 
+* Page Headings* Paragraphs* Button labels","All text elements on the homepage should be free of spelling errors.
+"
+,,,3,"Compare each visible text against standard spelling conventions and application content requirements
+","Text elements should match the intended content or labels specified in the design documentation.
+"
+23190,Test Case,Spell Check on Request Form,,,
+23187,Shared Steps,,1,Application Navigation_Password,
+,,,1.1,"Navigate to Power Apps
+
+","Power Apps page should load successfully.
+
+"
+,,,1.2,Search & Select Password,"The Password details screen should be displayed.
+"
+,,,2,"Observe all visible text elements, including 
+* Page headings* Paragraphs* Button labels* Menu items* Error messages (if any appear by default)* Tooltips or placeholders","All text elements on the homepage should be free of spelling errors.
+"
+,,,3,"Compare each visible text against standard spelling conventions and application content requirements
+","Text elements should match the intended content or labels specified in the design documentation.
+"
+23191,Test Case,Verify Cosmetic Changes in the application,,,
+23187,Shared Steps,,1,Application Navigation_Password,
+,,,1.1,"Navigate to Power Apps
+
+","Power Apps page should load successfully.
+
+"
+,,,1.2,Search & Select Password,"The Password details screen should be displayed.
+"
+,,,2,"Compare the homepage UI with the provided design specifications or mockups, including Color Scheme: Verify that the background, text, buttons, and other elements match the defined color palette.Font Styles: Check font family, size, weight, and alignment of text elements.Icons/Images: Ensure all icons and images are updated as per the requirements and display properly.Spacing and Alignment: Confirm consistent spacing between elements and correct alignment.Button Styles: Verify button size, color, hover effects, and states (enabled/disabled).
+",All cosmetic changes are applied correctly and match the specifications in the design document.
+23192,Test Case,Request Form should not be Editable During the Loading Phase,,,
+23187,Shared Steps,,1,Application Navigation_Password,
+,,,1.1,"Navigate to Power Apps
+
+","Power Apps page should load successfully.
+
+"
+,,,1.2,Search & Select Password,"The Password details screen should be displayed.
+"
+,,,2,Navigate to the section containing the request form,It should be navigated to the request form in successfully
+,,,3,"Trigger the loading phase by performing an action Click ""Submit & Extract data"" button.","A visual indicator (e.g., a spinner or loading message) should be displayed to inform the user that the form is loading."
+,,,4,Observe the behavior of the request form during the loading phase.,"
+
+The request form should remain in a non-editable state (read-only or disabled) during the loading phase."
+,,,5,"The user tried to edit the fields, dropdowns, or any interactive elements in the request form while the loading indicator is visible.",The user should interact with the form fields should be restricted
+23200,Test Case,Functionality and Navigation of Links within the Application works correctly,,,
+23187,Shared Steps,,1,Application Navigation_Password,
+,,,1.1,"Navigate to Power Apps
+
+","Power Apps page should load successfully.
+
+"
+,,,1.2,Search & Select Password,"The Password details screen should be displayed.
+"
+,,,2,"On next page, select the use case for the data that user is going to upload",#NAME?
+,,,3,Validate the output link to which user is directed on clicking.                                                       Find Your TAP Champion,The link is opening and displayed properly
+,,,4,Validate the output link to which user is directed on clicking.                                                Product Information,The link is opening and displayed properly
+,,,5,Validate the output link to which user is directed on clicking.                                           Submit an Idea for TAP,The link is opening and displayed properly
+,,,6,Validate the output link to which user is directed on clicking.                                              Request a Client Demo,The link is opening and displayed properly
+23207,Test Case,Agree to AI Attestation and Navigation to Input Form - Positive,,,
+,,,1,Navigate to the section of the application that requires AI attestation before accessing the input form.,"The AI attestation pop-up is displayed with options to ""Agree"" and ""Disagree."""
+,,,2,"Click the ""Agree"" button on the AI attestation pop-up.",* The pop-up closes                                                              * The user is navigated to the input form screen
+,,,3,Validate the input form screen after agreeing to the attestation,The input form should be displayed with all fields visible
+,,,4,The user tried to fill out and submit the input form,Confirmation or success message is displayed
+23209,Test Case,Disagree  AI Attestation - Positive,,,
+,,,1,Navigate to the page or section where the AI attestation pop-up appears,"The AI attestation pop-up is displayed, with the ""Agree"" and ""Disagree"" buttons visible"
+,,,2,"Click the ""Disagree"" button on the AI attestation pop-up.","* The AI attestation pop-up closes                                                              * No navigation occurs, and the user remains on the same page"
+,,,3," Validate the current page after clicking ""Disagree.""",The user stays on the same page and no redirection or change in the UI happens
+,,,4,"The user tried to interact with the page after disagreeing (e.g., navigate to other parts of the application).","User remains on the current page, and no further action is allowed if the AI attestation is required for proceeding."
+21775,Test Case,SOC Report Attachments Document Limit (20) - Positive,,,
+20928,Shared Steps,,1,Applictaion Navigation_SOC Report Extractor,
+,,,1.1,"Navigate to Power Apps
+
+","Power Apps page should load successfully.
+
+"
+,,,1.3,The user clicks on the Begin button,AI Attestation pop-up is displayed
+,,,1.4,The user clicks on the AGREE button in an AI Attestation pop-up,"The option should be accepted, and the user should be navigated to the request form.
+
+"
+,,,1.5,"Click on checkbox ""I agree to the TAP chargeback model. See details"" to submit the files.","* The ""Submit"" button should become active and clickable, allowing the user to submit the files."
+,,,2,"Enter Submission Inputs
+","Project ID, MD Email
+"
+,,,3,Attach 20 SOC reports,SOC Report Attachments. No error is displayed
+,,,4,"Click on Submit
+","User confirms submission of documents to be Extracted
+"
+,,,5,"Observe that Output Screen Opens
+","Requested submission goes through and no error message is displayed to the user
+"
+21776,Test Case,SOC Report Attachments Document Limit (20) - Negative,,,
+20928,Shared Steps,,1,Applictaion Navigation_SOC Report Extractor,
+,,,1.1,"Navigate to Power Apps
+
+","Power Apps page should load successfully.
+
+"
+,,,1.3,The user clicks on the Begin button,AI Attestation pop-up is displayed
+,,,1.4,The user clicks on the AGREE button in an AI Attestation pop-up,"The option should be accepted, and the user should be navigated to the request form.
+
+"
+,,,1.5,"Click on checkbox ""I agree to the TAP chargeback model. See details"" to submit the files.","* The ""Submit"" button should become active and clickable, allowing the user to submit the files."
+,,,2,"Enter Submission Inputs
+","Project ID, MD Email
+"
+,,,3,"Attach more than 20 SOC reports
+",Tool should not allow the user to upload more than 20 SOC reports
+,,,4,User receives an error,"User receives an error message ""Max. Number files reached"" 
+"
+21777,Test Case,Verify the extraction of key sections from the SOC report - Positive,,,
+20928,Shared Steps,,1,Applictaion Navigation_SOC Report Extractor,
+,,,1.1,"Navigate to Power Apps
+
+","Power Apps page should load successfully.
+
+"
+,,,1.3,The user clicks on the Begin button,AI Attestation pop-up is displayed
+,,,1.4,The user clicks on the AGREE button in an AI Attestation pop-up,"The option should be accepted, and the user should be navigated to the request form.
+
+"
+,,,1.5,"Click on checkbox ""I agree to the TAP chargeback model. See details"" to submit the files.","* The ""Submit"" button should become active and clickable, allowing the user to submit the files."
+,,,2,"Enter Submission Inputs
+","Project ID, MD Email
+"
+,,,3,"Attach Document(s)
+","SOC Report, submission allowed by document type: .pdf
+"
+,,,4,Click on Submit,"User confirms submission of documents
+"
+,,,5,Confirm Output Screen Opens & Open Generated Output,Requested output is generated and can be observed
+,,,6,Verify that the following key sections are correctly extracted and populated in the workbook:,* Each of the key sections is present and correctly populated in the workbook.
+,,,7,Cross-check the extracted content with the original SOC report for accuracy and completeness.,* The extracted content accurately reflects the corresponding sections from the original SOC report.
+21778,Test Case,SOC Report Type - Negative,,,
+20928,Shared Steps,,1,Applictaion Navigation_SOC Report Extractor,
+,,,1.1,"Navigate to Power Apps
+
+","Power Apps page should load successfully.
+
+"
+,,,1.3,The user clicks on the Begin button,AI Attestation pop-up is displayed
+,,,1.4,The user clicks on the AGREE button in an AI Attestation pop-up,"The option should be accepted, and the user should be navigated to the request form.
+
+"
+,,,1.5,"Click on checkbox ""I agree to the TAP chargeback model. See details"" to submit the files.","* The ""Submit"" button should become active and clickable, allowing the user to submit the files."
+,,,2,"Enter Submission Inputs
+","Project ID, MD Email
+"
+,,,3,"Attach Document(s) Not supported by App. Supported document types are pdf and excel for RCM files
+",Tool should display an error message to the user
+,,,4,User should receive an error,"User receives an error message saying ""please review the attached file(s) and confirm only .pdf files have been included in SOC report attachment window"" is provided"
+21880,Test Case,RCM Document Limit (1) - Positive,,,
+20928,Shared Steps,,1,Applictaion Navigation_SOC Report Extractor,
+,,,1.1,"Navigate to Power Apps
+
+","Power Apps page should load successfully.
+
+"
+,,,1.3,The user clicks on the Begin button,AI Attestation pop-up is displayed
+,,,1.4,The user clicks on the AGREE button in an AI Attestation pop-up,"The option should be accepted, and the user should be navigated to the request form.
+
+"
+,,,1.5,"Click on checkbox ""I agree to the TAP chargeback model. See details"" to submit the files.","* The ""Submit"" button should become active and clickable, allowing the user to submit the files."
+,,,2,"Enter Submission Inputs
+","Project ID, MD Email
+"
+,,,3,"Attach 1 RCM file
+",Tool should accept the RCM file and should not display an error message
+,,,4,"Click on Submit
+","User confirms submission of documents to be Extracted
+"
+21779,Test Case,RCM Document Type Check - Positive,,,
+20928,Shared Steps,,1,Applictaion Navigation_SOC Report Extractor,
+,,,1.1,"Navigate to Power Apps
+
+","Power Apps page should load successfully.
+
+"
+,,,1.3,The user clicks on the Begin button,AI Attestation pop-up is displayed
+,,,1.4,The user clicks on the AGREE button in an AI Attestation pop-up,"The option should be accepted, and the user should be navigated to the request form.
+
+"
+,,,1.5,"Click on checkbox ""I agree to the TAP chargeback model. See details"" to submit the files.","* The ""Submit"" button should become active and clickable, allowing the user to submit the files."
+,,,2,"Enter Submission Inputs
+","Project ID, MD Email
+"
+,,,3,"Attach 1 RCM file
+","RCM, submission allowed by document type: .xlsx
+"
+,,,4,Click on Submit,"User confirms submission of documents, submission allowed by document type
+"
+23449,Test Case,cost data is no longer on the front page of the app,,,
+20928,Shared Steps,,1,Applictaion Navigation_SOC Report Extractor,
+,,,1.1,"Navigate to Power Apps
+
+","Power Apps page should load successfully.
+
+"
+,,,1.3,The user clicks on the Begin button,AI Attestation pop-up is displayed
+,,,1.4,The user clicks on the AGREE button in an AI Attestation pop-up,"The option should be accepted, and the user should be navigated to the request form.
+
+"
+,,,1.5,"Click on checkbox ""I agree to the TAP chargeback model. See details"" to submit the files.","* The ""Submit"" button should become active and clickable, allowing the user to submit the files."
+,,,2,Check if the cost data is not present on the front page ,Cost data should not be present on the font page
+23448,Test Case,cost check box is required for submission,,,
+20928,Shared Steps,,1,Applictaion Navigation_SOC Report Extractor,
+,,,1.1,"Navigate to Power Apps
+
+","Power Apps page should load successfully.
+
+"
+,,,1.3,The user clicks on the Begin button,AI Attestation pop-up is displayed
+,,,1.4,The user clicks on the AGREE button in an AI Attestation pop-up,"The option should be accepted, and the user should be navigated to the request form.
+
+"
+,,,1.5,"Click on checkbox ""I agree to the TAP chargeback model. See details"" to submit the files.","* The ""Submit"" button should become active and clickable, allowing the user to submit the files."
+,,,2,Enter Submission Inputs,"Submission inputs are accepted. E.g. ""Project ID, MD Email"""
+,,,3,Attach Document(s),"* The SOC and RCM files are uploaded successfully.                                                                          * A dialog box appears prompting the user to enter passwords for the uploaded files.)                                                    *the ""I agree to the TAP chargeback model. See details"" checkbox is unchecked by default."
+,,,4,Enter the valid password for the SOC file in the respective input field or leave the field blank if the file is not password-protected.,"* If the file is password protected, the password should be entered successfully, and the system should accept it without errors.                                               * If the file is not password protected, the user should be able to skip the password field and proceed to the next step."
+,,,5,"Click on checkbox ""I agree to the TAP chargeback model. See details"" to submit the files.","* User cannot submit the files unless they agree to the chargeback model.                                                               *  A Submit button should be greyed out if the user does not agree to the terms.                                                   * The ""Submit"" button should become active and clickable, allowing the user to submit the files."
+,,,6,Click on Submit button,User confirms submission of documents 
+23184,Test Case,File Upload Counter - Positive,,,
+20928,Shared Steps,,1,Applictaion Navigation_SOC Report Extractor,
+,,,1.1,"Navigate to Power Apps
+
+","Power Apps page should load successfully.
+
+"
+,,,1.3,The user clicks on the Begin button,AI Attestation pop-up is displayed
+,,,1.4,The user clicks on the AGREE button in an AI Attestation pop-up,"The option should be accepted, and the user should be navigated to the request form.
+
+"
+,,,1.5,"Click on checkbox ""I agree to the TAP chargeback model. See details"" to submit the files.","* The ""Submit"" button should become active and clickable, allowing the user to submit the files."
+,,,2,"Enter the required submission inputs
+","Project ID, MD Email
+"
+,,,3,"Select and upload multiple valid files (e.g., 3 files).","The counter should increment by the number of files uploaded and display the total count (e.g., ""4 files uploaded"" after the previous file)."
+,,,4,Submit the form after attaching files,"The attached files count should match the counter, and the files should be successfully included in the submission."
+23159,Test Case,Terms and Conditions SOC report -Positive,,,
+20928,Shared Steps,,1,Applictaion Navigation_SOC Report Extractor,
+,,,1.1,"Navigate to Power Apps
+
+","Power Apps page should load successfully.
+
+"
+,,,1.3,The user clicks on the Begin button,AI Attestation pop-up is displayed
+,,,1.4,The user clicks on the AGREE button in an AI Attestation pop-up,"The option should be accepted, and the user should be navigated to the request form.
+
+"
+,,,1.5,"Click on checkbox ""I agree to the TAP chargeback model. See details"" to submit the files.","* The ""Submit"" button should become active and clickable, allowing the user to submit the files."
+,,,2,"Enter Submission Inputs
+","Project ID, MD Email
+"
+,,,3,"Attach a SOC report that has ""Agree"" or ""Disagree"" on the second page to open the full SOC report                                                                                  ",Tool should accept the SOC report and click on agree and should open the full SOC report and process the report
+,,,4,"Click on Submit
+","User confirms submission of documents to be Extracted
+"
+,,,5,"Validate the Generated Output
+","Output should be generated without any issues.
+"
+23153,Test Case,1 Password Protected SOC report -Positive,,,
+20928,Shared Steps,,1,Applictaion Navigation_SOC Report Extractor,
+,,,1.1,"Navigate to Power Apps
+
+","Power Apps page should load successfully.
+
+"
+,,,1.3,The user clicks on the Begin button,AI Attestation pop-up is displayed
+,,,1.4,The user clicks on the AGREE button in an AI Attestation pop-up,"The option should be accepted, and the user should be navigated to the request form.
+
+"
+,,,1.5,"Click on checkbox ""I agree to the TAP chargeback model. See details"" to submit the files.","* The ""Submit"" button should become active and clickable, allowing the user to submit the files."
+,,,2,"Enter Submission Inputs
+","Project ID, MD Email
+"
+,,,3,Attach A password protected SOC report,User should be able to provide the password 
+,,,4,"Click on Submit
+","User confirms submission of documents to be Extracted
+"
+,,,5,Output should be provided to the user,Output should be shared with the user

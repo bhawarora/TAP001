@@ -1,0 +1,12 @@
+Test ID,Test Case Name,QA Status,Total Steps,Passed Steps,Failed Steps,Pass Rate
+28936,Overview Screen Navigation,PASS,1,1,0,100.0%
+28937,Cross Browser Accessibility - Chrome,PASS,2,2,0,100.0%
+28938,Begin Button - Positive,PASS,2,2,0,100.0%
+28939,Attestation Pop-up - Agree button,PASS,4,4,0,100.0%
+28940,Attestation Pop-up - Disagree button,FAIL,4,1,3,25.0%
+28941,Request Form Navigation,FAIL,5,2,3,40.0%
+28942,Content & Components - Data Extractor,FAIL,3,1,2,33.3%
+28943,Header Components - Data Extractor,FAIL,2,1,1,50.0%
+28944,Footer Components - Data Extractor,FAIL,2,1,1,50.0%
+28945,PDF document - Receipts,FAIL,4,1,3,25.0%
+28946,Image documents - Receipts,FAIL,4,1,3,25.0%
