@@ -1,0 +1,123 @@
+================================================================================
+POWER APPS LOGIN AUTOMATION - QUICK START CARD
+================================================================================
+
+PROJECT LOCATION:
+C:\Users\bhawna.arora\PycharmProjects\PythonProject\PythonProject2\
+
+FILES:
+  • code.py          - Main login automation script
+  • test_code.py     - Pre-execution test suite (already passed ✓)
+  • README.md        - Detailed documentation
+  • QUICKSTART.txt   - This file
+
+================================================================================
+ONE-LINE SETUP (Run Once)
+================================================================================
+
+pip install selenium webdriver-manager keyring
+
+
+================================================================================
+OPTION 1: INTERACTIVE PASSWORD ENTRY (Recommended for Security)
+================================================================================
+
+Run this in PowerShell on your machine:
+
+    $env:POWERAPPS_USER = 'bhawna.arora@protivitiglobal.in'
+    python C:\Users\bhawna.arora\PycharmProjects\PythonProject\PythonProject2\code.py
+
+When prompted: Enter your password (it will not be visible on screen)
+Then: Approve MFA on your device when Chrome opens
+
+
+================================================================================
+OPTION 2: STORE PASSWORD SECURELY (Best for Repeated Use)
+================================================================================
+
+Step 1 - Store credential once (run locally, replace <PASSWORD>):
+
+    python -c "import keyring; keyring.set_password('powerapps_automation','bhawna.arora@protivitiglobal.in','<PASSWORD>')"
+
+Step 2 - Run the script (password auto-retrieved from Windows Credential Manager):
+
+    $env:POWERAPPS_USER = 'bhawna.arora@protivitiglobal.in'
+    python C:\Users\bhawna.arora\PycharmProjects\PythonProject\PythonProject2\code.py
+
+
+================================================================================
+WHAT HAPPENS
+================================================================================
+
+1. Chrome opens and navigates to Power Apps URL
+2. Username and password are auto-filled (may use fallback selectors if needed)
+3. MFA prompt appears → Approve on your authenticator/SMS/phone
+4. Script detects successful redirect and saves screenshot
+5. Press Enter to close browser and exit
+
+
+================================================================================
+TROUBLESHOOTING
+================================================================================
+
+Issue: Chrome doesn't open
+  → Ensure Chrome is installed and up to date
+  → Check internet connection for chromedriver download
+
+Issue: Username/password not filled
+  → Script has multiple fallback selectors for different login page layouts
+  → If autofill fails, sign in manually in the opened browser
+  → Script will still detect successful login via redirect
+
+Issue: MFA timed out
+  → Complete MFA approval on your device
+  → If needed, increase POWERAPPS_WAIT_SECONDS (e.g., 1200 for 20 minutes):
+      $env:POWERAPPS_WAIT_SECONDS = '1200'
+
+Issue: Keyring not working
+  → Verify: keyring is installed (pip install keyring)
+  → Fall back to Option 1 (interactive password entry)
+
+
+================================================================================
+TEST RESULTS (Verification completed)
+================================================================================
+
+✓ All imports successful
+✓ Power Apps URL reachable
+✓ Selenium ChromeDriver available (C:\Users\bhawna.arora\.wdm\drivers\...)
+✓ code.py structure validated (all required functions present)
+✓ Keyring/Windows Credential Manager accessible (WinVaultKeyring)
+
+Result: 5/5 tests PASSED - Ready to run!
+
+
+================================================================================
+NEXT STEP: RUN LOCALLY
+================================================================================
+
+Copy one of the commands from OPTION 1 or OPTION 2 above and paste into
+PowerShell on your machine. Then:
+
+1. Enter credentials when prompted
+2. Complete MFA approval on your device
+3. Watch for successful login detection
+4. Press Enter to close browser
+
+For detailed help, see README.md
+
+
+================================================================================
+SECURITY NOTES
+================================================================================
+
+• Do NOT hardcode passwords (use keyring or interactive entry)
+• Password is NOT logged, echoed, or stored by this script
+• MFA cannot be bypassed - you must approve it on your device
+• Use Windows Credential Manager (keyring) for repeated runs
+• For production automation, consider a service principal (Azure AD app)
+
+================================================================================
+Questions? Check README.md or run test_code.py to verify setup.
+================================================================================
+
