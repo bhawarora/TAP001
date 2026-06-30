@@ -1,0 +1,97 @@
+ID,Work Item Type,Title,Test Step,Step Action,Step Expected
+28936,Test Case,Overview Screen Navigation,,,
+,,,1,Navigate to URL-https://apps.powerapps.com/play/e/4d750f69-e41e-eef2-9f2d-0a1a538a9c00/a/024c5985-82c9-48bc-82a0-e73da686773e?tenantId=16532572-d567-4d67-8727-f12f7bb6aed3&source=AppSharedV3&hint=d033a915-af0b-4cf2-915b-c5d049485010&sourcetime=1747834684577,"User should be navigated to Data Extractor application
+"
+28938,Test Case,Begin Button - Positive,,,
+26228,Shared Steps,,1,,
+,,,1.1,,
+,,,2,Click Begin Button,"On clicking Begin button, AI Attestation pop-up should appear "
+28939,Test Case,Attestation Pop-up - Agree button - Positive,,,
+26230,Shared Steps,,1,,
+,,,1.1,,
+,,,1.2,"Locate the ""Begin"" button associated with accessing the request form.
+","""Begin"" button is visible and clickable
+"
+,,,1.3,The user clicks on the Begin button,Attestation form should appear with Agree and Disagree button
+,,,2,Click the Agree button,Agree button should get clicked and Request form should get opened
+28940,Test Case,Attestation Pop-up - Disagree button - Positive,,,
+26230,Shared Steps,,1,,
+,,,1.1,,
+,,,1.2,"Locate the ""Begin"" button associated with accessing the request form.
+","""Begin"" button is visible and clickable
+"
+,,,1.3,The user clicks on the Begin button,Attestation form should appear with Agree and Disagree button
+,,,2,Click on Disagree button on Attestation Pop-up ,"Disagree button should be clickable, and the pop-up should get closed. User should come back to homepage"
+28941,Test Case,Request Form Navigation,,,
+,,,1,,
+,,,2,"Locate the ""Begin"" button associated with accessing the request form.
+","""Begin"" button is visible and clickable
+"
+,,,3,The user clicks on the Begin button,Attestation form should appear with Agree and Disagree button
+,,,4,Click on Agree button,"On clicking Agree, Request form should get displayed"
+,,,5,"Verify the visibility of the request form
+",Request form is fully visible with all section 
+,,,6,"Confirm that all section is present
+","The user should the following section in sequence 
+1.Upload documents with zip file requirements  information
+2.Documents type with cost per page information
+3.Fields to Extractor-ADI with two option select all and clear all ,below is the list of fields which can be extracted by selecting checkboxes . 
+4.Engagement information -it has two option project id number and EMD details
+5.Terms & Condition with check box
+6.Submit & Extract Data button"
+28942,Test Case,Content & Components - Data Extractor,,,
+26228,Shared Steps,,1,,
+,,,1.1,,
+,,,2,Verify the UI Components,"The UI components should include-
+1. Header
+2. Content
+3. Footer"
+,,,3,Verify the content,The content should be appropriate as provided
+,,,4,Verify the Begin button,Begin button should appear on the screen 
+28943,Test Case,Header Components - Data Extractor,,,
+26228,Shared Steps,,1,,
+,,,1.1,,
+,,,2,Verify the Header Components,"Header components should include-
+1. The Backward Arrow at the top left
+2. Protiviti | TAP logo at the top left
+3. Name of the application ""Data Extractor"" in the middle
+
+"
+,,,3,Click on the backward arrow,It should redirect to the TAP Home Page
+28944,Test Case,Footer Components - Data Extractor,,,
+26228,Shared Steps,,1,,
+,,,1.1,,
+,,,2,Verify the Footer Components,"Footer Components should include-
+1. Find your TAP Champion
+2. Product Information
+3. Submit an Idea for TAP
+4. Request a Client Demo
+5. Copyright at the bottom right"
+28945,Test Case,Validating the basic run of a pdf document of Receipts- Positive,,,
+26230,Shared Steps,,1,,
+,,,1.1,,
+,,,1.2,"Locate the ""Begin"" button associated with accessing the request form.
+","""Begin"" button is visible and clickable
+"
+,,,1.3,The user clicks on the Begin button,Attestation form should appear with Agree and Disagree button
+,,,2,Click Agree button,"On clicking Agree button, Request submission form should appear"
+,,,3,Choose the documents types from the dropdown as Receipts ,"User should be able to choose the Documents type from the below mentioned.
+- The system registers the selection without any errors or delays                                                                        - The interface updates or proceeds to the next step based on the selection of ""Receipts.""
+As per selection cost per pages will update for example - $0.25 per page
+
+ "
+,,,4,"Select Any ""Fields to Extracts -ADI"" out of following list
+Transaction Details-
+","- The ""Fields to Extract-ADI"" option should be checked or marked as selected upon user interaction.                                       "
+,,,5,"Upload the file in pdf format by drag and drop or browse file option 
+",#NAME?
+,,,6,"Enter Engagement Information - ""Project ID, Manager Email"".
+",#NAME?
+24409,Shared Steps,,7,Terms & Condition,
+,,,7.1,Accept the Term & Condition check box,It should be accepted/checked
+,,,8,"Click ""Submit & Extract Data"" button
+","- It should be submitted in successfully                               - It should display the confirmation message i.e.             ""- Header: We are Processing your files,                             - Text: ""Your submission was successfully submitted. You will receive a Teams notification with your output shortly. Thank you!.""                                 - Button: ""Close"""
+,,,9,"Validate the next page ""We are processing your files"" with ""Close"" button.
+",Request is submitted successfully
+,,,10,"Validate the output file content generated
+",Validate the output received in .csv format.

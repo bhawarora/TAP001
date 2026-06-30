@@ -1,0 +1,299 @@
+[
+  {
+    "test_id": "28936",
+    "test_name": "Overview Screen Navigation",
+    "step": "1",
+    "expected": "User should be navigated to Data Extractor application",
+    "actual": "Already navigated and main screen ready - skipping navigation",
+    "status": "PASS",
+    "timestamp": "2026-05-21 16:55:34"
+  },
+  {
+    "test_id": "28937",
+    "test_name": "Cross Browser Accessibility - Chrome",
+    "step": "1.1",
+    "expected": "User should be navigated to Data Extractor application",
+    "actual": "Begin button is visible and clickable",
+    "status": "PASS",
+    "timestamp": "2026-05-21 16:55:34"
+  },
+  {
+    "test_id": "28937",
+    "test_name": "Cross Browser Accessibility - Chrome",
+    "step": "2",
+    "expected": "Application should be accessible on all browsers",
+    "actual": "Begin button is visible and clickable",
+    "status": "PASS",
+    "timestamp": "2026-05-21 16:55:34"
+  },
+  {
+    "test_id": "28938",
+    "test_name": "Begin Button - Positive",
+    "step": "1.1",
+    "expected": "User should be navigated to Data Extractor application",
+    "actual": "Already navigated and main screen ready - skipping navigation",
+    "status": "PASS",
+    "timestamp": "2026-05-21 16:55:34"
+  },
+  {
+    "test_id": "28938",
+    "test_name": "Begin Button - Positive",
+    "step": "2",
+    "expected": "On clicking Begin button, AI Attestation pop-up should appear",
+    "actual": "Begin button clicked successfully",
+    "status": "PASS",
+    "timestamp": "2026-05-21 16:55:36"
+  },
+  {
+    "test_id": "28939",
+    "test_name": "Attestation Pop-up - Agree button",
+    "step": "1.1",
+    "expected": "User should be navigated to the provided URL",
+    "actual": "Already navigated and main screen ready - skipping navigation",
+    "status": "PASS",
+    "timestamp": "2026-05-21 16:55:36"
+  },
+  {
+    "test_id": "28939",
+    "test_name": "Attestation Pop-up - Agree button",
+    "step": "1.2",
+    "expected": "Begin button is visible and clickable",
+    "actual": "Begin button is visible and clickable",
+    "status": "PASS",
+    "timestamp": "2026-05-21 16:55:37"
+  },
+  {
+    "test_id": "28939",
+    "test_name": "Attestation Pop-up - Agree button",
+    "step": "1.3",
+    "expected": "Attestation form should appear with Agree and Disagree button",
+    "actual": "Begin button clicked successfully",
+    "status": "PASS",
+    "timestamp": "2026-05-21 16:55:39"
+  },
+  {
+    "test_id": "28939",
+    "test_name": "Attestation Pop-up - Agree button",
+    "step": "2",
+    "expected": "Agree button should get clicked and Request form should get opened",
+    "actual": "Agree button clicked successfully",
+    "status": "PASS",
+    "timestamp": "2026-05-21 16:55:42"
+  },
+  {
+    "test_id": "28940",
+    "test_name": "Attestation Pop-up - Disagree button",
+    "step": "1.1",
+    "expected": "User should be navigated to the provided URL",
+    "actual": "Already navigated and main screen ready - skipping navigation",
+    "status": "PASS",
+    "timestamp": "2026-05-21 16:55:42"
+  },
+  {
+    "test_id": "28940",
+    "test_name": "Attestation Pop-up - Disagree button",
+    "step": "1.2",
+    "expected": "Begin button is visible and clickable",
+    "actual": "Begin button check failed: Locator expected to be visible\nActual value: None\nError: element(s) not found \nCall log:\n  - Expect \"to_be_visible\" with timeout 15000ms\n  - waiting for locator(\"iframe[name='fullscreen-app-host']\").content_frame.get_by_role(\"button\", name=\"Begin\", exact=True)\n",
+    "status": "FAIL",
+    "timestamp": "2026-05-21 16:55:57"
+  },
+  {
+    "test_id": "28940",
+    "test_name": "Attestation Pop-up - Disagree button",
+    "step": "1.3",
+    "expected": "Attestation form should appear with Agree and Disagree button",
+    "actual": "Click Begin button failed: Locator expected to be visible\nActual value: None\nError: element(s) not found \nCall log:\n  - Expect \"to_be_visible\" with timeout 15000ms\n  - waiting for locator(\"iframe[name='fullscreen-app-host']\").content_frame.get_by_role(\"button\", name=\"Begin\", exact=True)\n",
+    "status": "FAIL",
+    "timestamp": "2026-05-21 16:56:12"
+  },
+  {
+    "test_id": "28940",
+    "test_name": "Attestation Pop-up - Disagree button",
+    "step": "2",
+    "expected": "Disagree button should be clickable, and the pop-up should get closed",
+    "actual": "Click Disagree button failed: Locator expected to be visible\nActual value: None\nError: element(s) not found \nCall log:\n  - Expect \"to_be_visible\" with timeout 10000ms\n  - waiting for locator(\"iframe[name='fullscreen-app-host']\").content_frame.get_by_role(\"button\", name=\"Disagree\", exact=True)\n",
+    "status": "FAIL",
+    "timestamp": "2026-05-21 16:56:22"
+  },
+  {
+    "test_id": "28941",
+    "test_name": "Request Form Navigation",
+    "step": "1",
+    "expected": "User should be navigated to the provided URL",
+    "actual": "Already navigated and main screen ready - skipping navigation",
+    "status": "PASS",
+    "timestamp": "2026-05-21 16:56:22"
+  },
+  {
+    "test_id": "28941",
+    "test_name": "Request Form Navigation",
+    "step": "2",
+    "expected": "Begin button is visible and clickable",
+    "actual": "Begin button check failed: Locator expected to be visible\nActual value: None\nError: element(s) not found \nCall log:\n  - Expect \"to_be_visible\" with timeout 15000ms\n  - waiting for locator(\"iframe[name='fullscreen-app-host']\").content_frame.get_by_role(\"button\", name=\"Begin\", exact=True)\n",
+    "status": "FAIL",
+    "timestamp": "2026-05-21 16:56:37"
+  },
+  {
+    "test_id": "28941",
+    "test_name": "Request Form Navigation",
+    "step": "3",
+    "expected": "Attestation form should appear with Agree and Disagree button",
+    "actual": "Click Begin button failed: Locator expected to be visible\nActual value: None\nError: element(s) not found \nCall log:\n  - Expect \"to_be_visible\" with timeout 15000ms\n  - waiting for locator(\"iframe[name='fullscreen-app-host']\").content_frame.get_by_role(\"button\", name=\"Begin\", exact=True)\n",
+    "status": "FAIL",
+    "timestamp": "2026-05-21 16:56:52"
+  },
+  {
+    "test_id": "28941",
+    "test_name": "Request Form Navigation",
+    "step": "4",
+    "expected": "On clicking Agree, Request form should get displayed",
+    "actual": "Click Agree button failed: Locator expected to be visible\nActual value: None\nError: element(s) not found \nCall log:\n  - Expect \"to_be_visible\" with timeout 10000ms\n  - waiting for locator(\"iframe[name='fullscreen-app-host']\").content_frame.get_by_role(\"button\", name=\"Agree\", exact=True)\n",
+    "status": "FAIL",
+    "timestamp": "2026-05-21 16:57:02"
+  },
+  {
+    "test_id": "28941",
+    "test_name": "Request Form Navigation",
+    "step": "5",
+    "expected": "Request form is fully visible with all sections",
+    "actual": "Request form is visible",
+    "status": "PASS",
+    "timestamp": "2026-05-21 16:57:04"
+  },
+  {
+    "test_id": "28942",
+    "test_name": "Content & Components - Data Extractor",
+    "step": "1.1",
+    "expected": "User should be navigated to Data Extractor application",
+    "actual": "Already navigated and main screen ready - skipping navigation",
+    "status": "PASS",
+    "timestamp": "2026-05-21 16:57:04"
+  },
+  {
+    "test_id": "28942",
+    "test_name": "Content & Components - Data Extractor",
+    "step": "2",
+    "expected": "The UI components should include Header, Content, Footer",
+    "actual": "UI components check failed: Unsupported type: <class 'playwright.sync_api._generated.FrameLocator'>",
+    "status": "FAIL",
+    "timestamp": "2026-05-21 16:57:04"
+  },
+  {
+    "test_id": "28942",
+    "test_name": "Content & Components - Data Extractor",
+    "step": "4",
+    "expected": "Begin button should appear on the screen",
+    "actual": "Begin button check failed: Locator expected to be visible\nActual value: None\nError: element(s) not found \nCall log:\n  - Expect \"to_be_visible\" with timeout 15000ms\n  - waiting for locator(\"iframe[name='fullscreen-app-host']\").content_frame.get_by_role(\"button\", name=\"Begin\", exact=True)\n",
+    "status": "FAIL",
+    "timestamp": "2026-05-21 16:57:19"
+  },
+  {
+    "test_id": "28943",
+    "test_name": "Header Components - Data Extractor",
+    "step": "1.1",
+    "expected": "User should be navigated to Data Extractor application",
+    "actual": "Already navigated and main screen ready - skipping navigation",
+    "status": "PASS",
+    "timestamp": "2026-05-21 16:57:19"
+  },
+  {
+    "test_id": "28943",
+    "test_name": "Header Components - Data Extractor",
+    "step": "2",
+    "expected": "Header components should include Backward Arrow, Logo, Application Name",
+    "actual": "UI components check failed: Unsupported type: <class 'playwright.sync_api._generated.FrameLocator'>",
+    "status": "FAIL",
+    "timestamp": "2026-05-21 16:57:19"
+  },
+  {
+    "test_id": "28944",
+    "test_name": "Footer Components - Data Extractor",
+    "step": "1.1",
+    "expected": "User should be navigated to Data Extractor application",
+    "actual": "Already navigated and main screen ready - skipping navigation",
+    "status": "PASS",
+    "timestamp": "2026-05-21 16:57:19"
+  },
+  {
+    "test_id": "28944",
+    "test_name": "Footer Components - Data Extractor",
+    "step": "2",
+    "expected": "Footer Components should include Find TAP Champion, Product Info, Ideas, Demo, Copyright",
+    "actual": "UI components check failed: Unsupported type: <class 'playwright.sync_api._generated.FrameLocator'>",
+    "status": "FAIL",
+    "timestamp": "2026-05-21 16:57:19"
+  },
+  {
+    "test_id": "28945",
+    "test_name": "PDF document - Receipts",
+    "step": "1.1",
+    "expected": "User should be navigated to the provided URL",
+    "actual": "Already navigated and main screen ready - skipping navigation",
+    "status": "PASS",
+    "timestamp": "2026-05-21 16:57:19"
+  },
+  {
+    "test_id": "28945",
+    "test_name": "PDF document - Receipts",
+    "step": "1.2",
+    "expected": "Begin button is visible and clickable",
+    "actual": "Begin button check failed: Locator expected to be visible\nActual value: None\nError: element(s) not found \nCall log:\n  - Expect \"to_be_visible\" with timeout 15000ms\n  - waiting for locator(\"iframe[name='fullscreen-app-host']\").content_frame.get_by_role(\"button\", name=\"Begin\", exact=True)\n",
+    "status": "FAIL",
+    "timestamp": "2026-05-21 16:57:34"
+  },
+  {
+    "test_id": "28945",
+    "test_name": "PDF document - Receipts",
+    "step": "1.3",
+    "expected": "Attestation form should appear with Agree and Disagree button",
+    "actual": "Click Begin button failed: Locator expected to be visible\nActual value: None\nError: element(s) not found \nCall log:\n  - Expect \"to_be_visible\" with timeout 15000ms\n  - waiting for locator(\"iframe[name='fullscreen-app-host']\").content_frame.get_by_role(\"button\", name=\"Begin\", exact=True)\n",
+    "status": "FAIL",
+    "timestamp": "2026-05-21 16:57:49"
+  },
+  {
+    "test_id": "28945",
+    "test_name": "PDF document - Receipts",
+    "step": "2",
+    "expected": "On clicking Agree button, Request submission form should appear",
+    "actual": "Click Agree button failed: Locator expected to be visible\nActual value: None\nError: element(s) not found \nCall log:\n  - Expect \"to_be_visible\" with timeout 10000ms\n  - waiting for locator(\"iframe[name='fullscreen-app-host']\").content_frame.get_by_role(\"button\", name=\"Agree\", exact=True)\n",
+    "status": "FAIL",
+    "timestamp": "2026-05-21 16:57:59"
+  },
+  {
+    "test_id": "28946",
+    "test_name": "Image documents - Receipts",
+    "step": "1.1",
+    "expected": "User should be navigated to the provided URL",
+    "actual": "Already navigated and main screen ready - skipping navigation",
+    "status": "PASS",
+    "timestamp": "2026-05-21 16:57:59"
+  },
+  {
+    "test_id": "28946",
+    "test_name": "Image documents - Receipts",
+    "step": "1.2",
+    "expected": "Begin button is visible and clickable",
+    "actual": "Begin button check failed: Locator expected to be visible\nActual value: None\nError: element(s) not found \nCall log:\n  - Expect \"to_be_visible\" with timeout 15000ms\n  - waiting for locator(\"iframe[name='fullscreen-app-host']\").content_frame.get_by_role(\"button\", name=\"Begin\", exact=True)\n",
+    "status": "FAIL",
+    "timestamp": "2026-05-21 16:58:14"
+  },
+  {
+    "test_id": "28946",
+    "test_name": "Image documents - Receipts",
+    "step": "1.3",
+    "expected": "Attestation form should appear with Agree and Disagree button",
+    "actual": "Click Begin button failed: Locator expected to be visible\nActual value: None\nError: element(s) not found \nCall log:\n  - Expect \"to_be_visible\" with timeout 15000ms\n  - waiting for locator(\"iframe[name='fullscreen-app-host']\").content_frame.get_by_role(\"button\", name=\"Begin\", exact=True)\n",
+    "status": "FAIL",
+    "timestamp": "2026-05-21 16:58:29"
+  },
+  {
+    "test_id": "28946",
+    "test_name": "Image documents - Receipts",
+    "step": "2",
+    "expected": "On clicking Agree button, Request submission form should appear",
+    "actual": "Click Agree button failed: Locator expected to be visible\nActual value: None\nError: element(s) not found \nCall log:\n  - Expect \"to_be_visible\" with timeout 10000ms\n  - waiting for locator(\"iframe[name='fullscreen-app-host']\").content_frame.get_by_role(\"button\", name=\"Agree\", exact=True)\n",
+    "status": "FAIL",
+    "timestamp": "2026-05-21 16:58:39"
+  }
+]

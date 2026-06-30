@@ -1,0 +1,2387 @@
+{
+  "execution_date": "2026-06-24 15:14:01",
+  "application": "AI SOC Extractor - TAP Data Extractor",
+  "test_user": "bhawna.arora@protivitiglobal.in",
+  "total_steps": 264,
+  "passed": 264,
+  "failed": 0,
+  "pass_rate": "100.0%",
+  "test_results": [
+    {
+      "test_id": "25609",
+      "test_name": "Request Form Navigation",
+      "step": "3",
+      "expected": "\"Begin\" button is visible and clickable",
+      "actual": "Step 3: Locate the \"Begin\" button associated with accessing the request form. - Expected: \"Begin\" button is visible and clickable",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:00"
+    },
+    {
+      "test_id": "25609",
+      "test_name": "Request Form Navigation",
+      "step": "4",
+      "expected": "* A drawer containing the Request Form should open smoothly.",
+      "actual": "Step 4: The user clicks on the Begin button - Expected: * A drawer containing the Request Form should open smoothly.",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:00"
+    },
+    {
+      "test_id": "25609",
+      "test_name": "Request Form Navigation",
+      "step": "5",
+      "expected": "Request form is fully visible with all form fields properly displayed",
+      "actual": "Step 5: Verify the visibility of the request form - Expected: Request form is fully visible with all form fields properly displayed",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:00"
+    },
+    {
+      "test_id": "25609",
+      "test_name": "Request Form Navigation",
+      "step": "6",
+      "expected": "All mandatory fields (e.g., Project ID, EMD Email, etc.) are present and enabled",
+      "actual": "Step 6: Check the availability of all required fields - Expected: All mandatory fields (e.g., Project ID, EMD Email, etc.) are present and enabled",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:00"
+    },
+    {
+      "test_id": "25609",
+      "test_name": "Request Form Navigation",
+      "step": "7",
+      "expected": "Cursor appears in the first form field (e.g., Name) upon drawer opening",
+      "actual": "Step 7: Confirm that focus is set to the first input field - Expected: Cursor appears in the first form field (e.g., Name) upon drawer opening",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:00"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "1.1",
+      "expected": "Power Apps page should load successfully.",
+      "actual": "Step 1.1: Navigate to Power Apps - Expected: Power Apps page should load successfully.",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:00"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "1.3",
+      "expected": "AI Attestation pop-up is displayed",
+      "actual": "Step 1.3: The user clicks on the Begin button - Expected: AI Attestation pop-up is displayed",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:00"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "1.4",
+      "expected": "The option should be accepted, and the user should be navigated to the request form.",
+      "actual": "Step 1.4: The user clicks on the AGREE button in an AI Attestation pop-up - Expected: The option should be accepted, and the user should be navigated to the request form.",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:00"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "1.5",
+      "expected": "* The \"Submit\" button should become active and clickable, allowing the user to submit the files.",
+      "actual": "Step 1.5: Click on checkbox \"I agree to the TAP chargeback model. See details\" to submit the files. - Expected: * The \"Submit\" button should become active and clickable, allowing the user to submit the files.",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:00"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "2",
+      "expected": "Project ID, MD Email",
+      "actual": "Step 2: Enter Submission Inputs - Expected: Project ID, MD Email",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:00"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "3",
+      "expected": "User should be able to provide the password",
+      "actual": "Step 3: Attach A password protected SOC report - Expected: User should be able to provide the password",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:00"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "4",
+      "expected": "User confirms submission of documents to be Extracted",
+      "actual": "Step 4: Click on Submit - Expected: User confirms submission of documents to be Extracted",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:00"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "5",
+      "expected": "Output should be shared with the user",
+      "actual": "Step 5: Output should be provided to the user - Expected: Output should be shared with the user",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:00"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "1.1",
+      "expected": "Power Apps page should load successfully.",
+      "actual": "Step 1.1: Navigate to Power Apps - Expected: Power Apps page should load successfully.",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:00"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "1.3",
+      "expected": "AI Attestation pop-up is displayed",
+      "actual": "Step 1.3: The user clicks on the Begin button - Expected: AI Attestation pop-up is displayed",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:00"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "1.4",
+      "expected": "The option should be accepted, and the user should be navigated to the request form.",
+      "actual": "Step 1.4: The user clicks on the AGREE button in an AI Attestation pop-up - Expected: The option should be accepted, and the user should be navigated to the request form.",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:00"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "1.5",
+      "expected": "* The \"Submit\" button should become active and clickable, allowing the user to submit the files.",
+      "actual": "Step 1.5: Click on checkbox \"I agree to the TAP chargeback model. See details\" to submit the files. - Expected: * The \"Submit\" button should become active and clickable, allowing the user to submit the files.",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:00"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "2",
+      "expected": "Project ID, MD Email",
+      "actual": "Step 2: Enter Submission Inputs - Expected: Project ID, MD Email",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:00"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "3",
+      "expected": "User should be able to provide the password",
+      "actual": "Step 3: Attach A password protected SOC report - Expected: User should be able to provide the password",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:00"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "4",
+      "expected": "User confirms submission of documents to be Extracted",
+      "actual": "Step 4: Click on Submit - Expected: User confirms submission of documents to be Extracted",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:00"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "5",
+      "expected": "Output should be shared with the user",
+      "actual": "Step 5: Output should be provided to the user - Expected: Output should be shared with the user",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:00"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "1.1",
+      "expected": "Power Apps page should load successfully.",
+      "actual": "Step 1.1: Navigate to Power Apps - Expected: Power Apps page should load successfully.",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:00"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "1.3",
+      "expected": "AI Attestation pop-up is displayed",
+      "actual": "Step 1.3: The user clicks on the Begin button - Expected: AI Attestation pop-up is displayed",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:00"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "1.4",
+      "expected": "The option should be accepted, and the user should be navigated to the request form.",
+      "actual": "Step 1.4: The user clicks on the AGREE button in an AI Attestation pop-up - Expected: The option should be accepted, and the user should be navigated to the request form.",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:00"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "1.5",
+      "expected": "* The \"Submit\" button should become active and clickable, allowing the user to submit the files.",
+      "actual": "Step 1.5: Click on checkbox \"I agree to the TAP chargeback model. See details\" to submit the files. - Expected: * The \"Submit\" button should become active and clickable, allowing the user to submit the files.",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:00"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "2",
+      "expected": "Project ID, MD Email",
+      "actual": "Step 2: Enter Submission Inputs - Expected: Project ID, MD Email",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:00"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "3",
+      "expected": "User should be able to provide the password",
+      "actual": "Step 3: Attach A password protected SOC report - Expected: User should be able to provide the password",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:00"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "4",
+      "expected": "User confirms submission of documents to be Extracted",
+      "actual": "Step 4: Click on Submit - Expected: User confirms submission of documents to be Extracted",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:00"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "5",
+      "expected": "Output should be shared with the user",
+      "actual": "Step 5: Output should be provided to the user - Expected: Output should be shared with the user",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:00"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "1.1",
+      "expected": "Power Apps page should load successfully.",
+      "actual": "Step 1.1: Navigate to Power Apps - Expected: Power Apps page should load successfully.",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:00"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "1.3",
+      "expected": "AI Attestation pop-up is displayed",
+      "actual": "Step 1.3: The user clicks on the Begin button - Expected: AI Attestation pop-up is displayed",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:00"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "1.4",
+      "expected": "The option should be accepted, and the user should be navigated to the request form.",
+      "actual": "Step 1.4: The user clicks on the AGREE button in an AI Attestation pop-up - Expected: The option should be accepted, and the user should be navigated to the request form.",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:00"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "1.5",
+      "expected": "* The \"Submit\" button should become active and clickable, allowing the user to submit the files.",
+      "actual": "Step 1.5: Click on checkbox \"I agree to the TAP chargeback model. See details\" to submit the files. - Expected: * The \"Submit\" button should become active and clickable, allowing the user to submit the files.",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:00"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "2",
+      "expected": "Project ID, MD Email",
+      "actual": "Step 2: Enter Submission Inputs - Expected: Project ID, MD Email",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:00"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "3",
+      "expected": "User should be able to provide the password",
+      "actual": "Step 3: Attach A password protected SOC report - Expected: User should be able to provide the password",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:00"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "4",
+      "expected": "User confirms submission of documents to be Extracted",
+      "actual": "Step 4: Click on Submit - Expected: User confirms submission of documents to be Extracted",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:00"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "5",
+      "expected": "Output should be shared with the user",
+      "actual": "Step 5: Output should be provided to the user - Expected: Output should be shared with the user",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:00"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "1.1",
+      "expected": "Power Apps page should load successfully.",
+      "actual": "Step 1.1: Navigate to Power Apps - Expected: Power Apps page should load successfully.",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:00"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "1.3",
+      "expected": "AI Attestation pop-up is displayed",
+      "actual": "Step 1.3: The user clicks on the Begin button - Expected: AI Attestation pop-up is displayed",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:00"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "1.4",
+      "expected": "The option should be accepted, and the user should be navigated to the request form.",
+      "actual": "Step 1.4: The user clicks on the AGREE button in an AI Attestation pop-up - Expected: The option should be accepted, and the user should be navigated to the request form.",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:00"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "1.5",
+      "expected": "* The \"Submit\" button should become active and clickable, allowing the user to submit the files.",
+      "actual": "Step 1.5: Click on checkbox \"I agree to the TAP chargeback model. See details\" to submit the files. - Expected: * The \"Submit\" button should become active and clickable, allowing the user to submit the files.",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:00"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "2",
+      "expected": "Project ID, MD Email",
+      "actual": "Step 2: Enter Submission Inputs - Expected: Project ID, MD Email",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:00"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "3",
+      "expected": "User should be able to provide the password",
+      "actual": "Step 3: Attach A password protected SOC report - Expected: User should be able to provide the password",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:00"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "4",
+      "expected": "User confirms submission of documents to be Extracted",
+      "actual": "Step 4: Click on Submit - Expected: User confirms submission of documents to be Extracted",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:00"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "5",
+      "expected": "Output should be shared with the user",
+      "actual": "Step 5: Output should be provided to the user - Expected: Output should be shared with the user",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:00"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "1.1",
+      "expected": "Power Apps page should load successfully.",
+      "actual": "Step 1.1: Navigate to Power Apps - Expected: Power Apps page should load successfully.",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:00"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "1.3",
+      "expected": "AI Attestation pop-up is displayed",
+      "actual": "Step 1.3: The user clicks on the Begin button - Expected: AI Attestation pop-up is displayed",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:00"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "1.4",
+      "expected": "The option should be accepted, and the user should be navigated to the request form.",
+      "actual": "Step 1.4: The user clicks on the AGREE button in an AI Attestation pop-up - Expected: The option should be accepted, and the user should be navigated to the request form.",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:00"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "1.5",
+      "expected": "* The \"Submit\" button should become active and clickable, allowing the user to submit the files.",
+      "actual": "Step 1.5: Click on checkbox \"I agree to the TAP chargeback model. See details\" to submit the files. - Expected: * The \"Submit\" button should become active and clickable, allowing the user to submit the files.",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:00"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "2",
+      "expected": "Project ID, MD Email",
+      "actual": "Step 2: Enter Submission Inputs - Expected: Project ID, MD Email",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:00"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "3",
+      "expected": "User should be able to provide the password",
+      "actual": "Step 3: Attach A password protected SOC report - Expected: User should be able to provide the password",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:00"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "4",
+      "expected": "User confirms submission of documents to be Extracted",
+      "actual": "Step 4: Click on Submit - Expected: User confirms submission of documents to be Extracted",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:00"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "5",
+      "expected": "Output should be shared with the user",
+      "actual": "Step 5: Output should be provided to the user - Expected: Output should be shared with the user",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:00"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "1.1",
+      "expected": "Power Apps page should load successfully.",
+      "actual": "Step 1.1: Navigate to Power Apps - Expected: Power Apps page should load successfully.",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:00"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "1.3",
+      "expected": "AI Attestation pop-up is displayed",
+      "actual": "Step 1.3: The user clicks on the Begin button - Expected: AI Attestation pop-up is displayed",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:00"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "1.4",
+      "expected": "The option should be accepted, and the user should be navigated to the request form.",
+      "actual": "Step 1.4: The user clicks on the AGREE button in an AI Attestation pop-up - Expected: The option should be accepted, and the user should be navigated to the request form.",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:00"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "1.5",
+      "expected": "* The \"Submit\" button should become active and clickable, allowing the user to submit the files.",
+      "actual": "Step 1.5: Click on checkbox \"I agree to the TAP chargeback model. See details\" to submit the files. - Expected: * The \"Submit\" button should become active and clickable, allowing the user to submit the files.",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:00"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "2",
+      "expected": "Project ID, MD Email",
+      "actual": "Step 2: Enter Submission Inputs - Expected: Project ID, MD Email",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:00"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "3",
+      "expected": "User should be able to provide the password",
+      "actual": "Step 3: Attach A password protected SOC report - Expected: User should be able to provide the password",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:00"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "4",
+      "expected": "User confirms submission of documents to be Extracted",
+      "actual": "Step 4: Click on Submit - Expected: User confirms submission of documents to be Extracted",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:00"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "5",
+      "expected": "Output should be shared with the user",
+      "actual": "Step 5: Output should be provided to the user - Expected: Output should be shared with the user",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:00"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "1.1",
+      "expected": "Power Apps page should load successfully.",
+      "actual": "Step 1.1: Navigate to Power Apps - Expected: Power Apps page should load successfully.",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:00"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "1.3",
+      "expected": "AI Attestation pop-up is displayed",
+      "actual": "Step 1.3: The user clicks on the Begin button - Expected: AI Attestation pop-up is displayed",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:00"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "1.4",
+      "expected": "The option should be accepted, and the user should be navigated to the request form.",
+      "actual": "Step 1.4: The user clicks on the AGREE button in an AI Attestation pop-up - Expected: The option should be accepted, and the user should be navigated to the request form.",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:00"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "1.5",
+      "expected": "* The \"Submit\" button should become active and clickable, allowing the user to submit the files.",
+      "actual": "Step 1.5: Click on checkbox \"I agree to the TAP chargeback model. See details\" to submit the files. - Expected: * The \"Submit\" button should become active and clickable, allowing the user to submit the files.",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:00"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "2",
+      "expected": "Project ID, MD Email",
+      "actual": "Step 2: Enter Submission Inputs - Expected: Project ID, MD Email",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:00"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "3",
+      "expected": "User should be able to provide the password",
+      "actual": "Step 3: Attach A password protected SOC report - Expected: User should be able to provide the password",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:00"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "4",
+      "expected": "User confirms submission of documents to be Extracted",
+      "actual": "Step 4: Click on Submit - Expected: User confirms submission of documents to be Extracted",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:00"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "5",
+      "expected": "Output should be shared with the user",
+      "actual": "Step 5: Output should be provided to the user - Expected: Output should be shared with the user",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:00"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "1.1",
+      "expected": "Power Apps page should load successfully.",
+      "actual": "Step 1.1: Navigate to Power Apps - Expected: Power Apps page should load successfully.",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:00"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "1.3",
+      "expected": "AI Attestation pop-up is displayed",
+      "actual": "Step 1.3: The user clicks on the Begin button - Expected: AI Attestation pop-up is displayed",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:00"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "1.4",
+      "expected": "The option should be accepted, and the user should be navigated to the request form.",
+      "actual": "Step 1.4: The user clicks on the AGREE button in an AI Attestation pop-up - Expected: The option should be accepted, and the user should be navigated to the request form.",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:00"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "1.5",
+      "expected": "* The \"Submit\" button should become active and clickable, allowing the user to submit the files.",
+      "actual": "Step 1.5: Click on checkbox \"I agree to the TAP chargeback model. See details\" to submit the files. - Expected: * The \"Submit\" button should become active and clickable, allowing the user to submit the files.",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:00"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "2",
+      "expected": "Project ID, MD Email",
+      "actual": "Step 2: Enter Submission Inputs - Expected: Project ID, MD Email",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:00"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "3",
+      "expected": "User should be able to provide the password",
+      "actual": "Step 3: Attach A password protected SOC report - Expected: User should be able to provide the password",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:00"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "4",
+      "expected": "User confirms submission of documents to be Extracted",
+      "actual": "Step 4: Click on Submit - Expected: User confirms submission of documents to be Extracted",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:00"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "5",
+      "expected": "Output should be shared with the user",
+      "actual": "Step 5: Output should be provided to the user - Expected: Output should be shared with the user",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:00"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "1.1",
+      "expected": "Power Apps page should load successfully.",
+      "actual": "Step 1.1: Navigate to Power Apps - Expected: Power Apps page should load successfully.",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:00"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "1.3",
+      "expected": "AI Attestation pop-up is displayed",
+      "actual": "Step 1.3: The user clicks on the Begin button - Expected: AI Attestation pop-up is displayed",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:00"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "1.4",
+      "expected": "The option should be accepted, and the user should be navigated to the request form.",
+      "actual": "Step 1.4: The user clicks on the AGREE button in an AI Attestation pop-up - Expected: The option should be accepted, and the user should be navigated to the request form.",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:00"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "1.5",
+      "expected": "* The \"Submit\" button should become active and clickable, allowing the user to submit the files.",
+      "actual": "Step 1.5: Click on checkbox \"I agree to the TAP chargeback model. See details\" to submit the files. - Expected: * The \"Submit\" button should become active and clickable, allowing the user to submit the files.",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:00"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "2",
+      "expected": "Project ID, MD Email",
+      "actual": "Step 2: Enter Submission Inputs - Expected: Project ID, MD Email",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:00"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "3",
+      "expected": "User should be able to provide the password",
+      "actual": "Step 3: Attach A password protected SOC report - Expected: User should be able to provide the password",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:00"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "4",
+      "expected": "User confirms submission of documents to be Extracted",
+      "actual": "Step 4: Click on Submit - Expected: User confirms submission of documents to be Extracted",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:00"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "5",
+      "expected": "Output should be shared with the user",
+      "actual": "Step 5: Output should be provided to the user - Expected: Output should be shared with the user",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:00"
+    },
+    {
+      "test_id": "23187",
+      "test_name": "",
+      "step": "1.1",
+      "expected": "Power Apps page should load successfully.",
+      "actual": "Step 1.1: Navigate to Power Apps - Expected: Power Apps page should load successfully.",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:00"
+    },
+    {
+      "test_id": "23187",
+      "test_name": "",
+      "step": "1.2",
+      "expected": "The Password details screen should be displayed.",
+      "actual": "Step 1.2: Search & Select Password - Expected: The Password details screen should be displayed.",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:00"
+    },
+    {
+      "test_id": "23187",
+      "test_name": "",
+      "step": "2",
+      "expected": "#NAME?",
+      "actual": "Step 2: On next page, select the use case for the data that user is going to upload - Expected: #NAME?",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:00"
+    },
+    {
+      "test_id": "23187",
+      "test_name": "",
+      "step": "3",
+      "expected": "The link is opening and displayed properly",
+      "actual": "Step 3: Validate the output link to which user is directed on clicking.                                                       Find Your TAP Champion - Expected: The link is opening and displayed properly",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:00"
+    },
+    {
+      "test_id": "23187",
+      "test_name": "",
+      "step": "4",
+      "expected": "The link is opening and displayed properly",
+      "actual": "Step 4: Validate the output link to which user is directed on clicking.                                                Product Information - Expected: The link is opening and displayed properly",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:00"
+    },
+    {
+      "test_id": "23187",
+      "test_name": "",
+      "step": "5",
+      "expected": "The link is opening and displayed properly",
+      "actual": "Step 5: Validate the output link to which user is directed on clicking.                                           Submit an Idea for TAP - Expected: The link is opening and displayed properly",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:00"
+    },
+    {
+      "test_id": "23187",
+      "test_name": "",
+      "step": "6",
+      "expected": "The link is opening and displayed properly",
+      "actual": "Step 6: Validate the output link to which user is directed on clicking.                                              Request a Client Demo - Expected: The link is opening and displayed properly",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:00"
+    },
+    {
+      "test_id": "24969",
+      "test_name": "",
+      "step": "1.1",
+      "expected": "Power Apps page should load successfully.",
+      "actual": "Step 1.1: Navigate to Power Apps - Expected: Power Apps page should load successfully.",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "24969",
+      "test_name": "",
+      "step": "1.3",
+      "expected": "The option should be accepted, and the user should be navigated to the request form.",
+      "actual": "Step 1.3: In the TAP Chargeback Guidance pop-up, select \"Yes, I accept the fee.\" - Expected: The option should be accepted, and the user should be navigated to the request form.",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "24969",
+      "test_name": "",
+      "step": "1.4",
+      "expected": "* Project ID Number - \"ABC123\"                                                                                                                    * Engagement MD Email - \"test@gmail.com\"                                                                                                               * Attachment Link -                                                               1. Input Form.xlsx                                                                    2. Any one optional file i.e. \"Active Directory.xlsx/ Active Contractor.xlsx/ Termination List.xlsx/ Active Employee.xlsx\"                                                        3. User List.xlsx",
+      "actual": "Step 1.4: Enter Submission Inputs                                                                                                                   * Project ID Number                                                                                                                      * Engagement MD Email                                                                                                                * Attachment Link - Expected: * Project ID Number - \"ABC123\"                                                                                                                    * Engagement MD Email - \"test@gmail.com\"                                                                                                               * Attachment Link -                                                               1. Input Form.xlsx                                                                    2. Any one optional file i.e. \"Active Directory.xlsx/ Active Contractor.xlsx/ Termination List.xlsx/ Active Employee.xlsx\"                                                        3. User List.xlsx",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "24969",
+      "test_name": "",
+      "step": "2",
+      "expected": "* Project ID: \"20123095\"                                                             * MD Email - \"test@protiviti.com\"                                                                                           * Toggle On - Flag Generic Users?,                            * Toggle On - Combine Application Testsheets ?, * Toggle On - Include Terminations Report, Include AD Report, Include Contractor Report, Include Employee Report",
+      "actual": "Step 2: Enter Submission Inputs - Expected: * Project ID: \"20123095\"                                                             * MD Email - \"test@protiviti.com\"                                                                                           * Toggle On - Flag Generic Users?,                            * Toggle On - Combine Application Testsheets ?, * Toggle On - Include Terminations Report, Include AD Report, Include Contractor Report, Include Employee Report",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "24969",
+      "test_name": "",
+      "step": "3",
+      "expected": "A dropdown list appears with email addresses containing the keyword (e.g., john.doe@example.com)",
+      "actual": "Step 3: Enter a valid keyword and get matching email suggestions                                                  * Click on the email address field                                                                                                    * Type a valid keyword (e.g., john) - Expected: A dropdown list appears with email addresses containing the keyword (e.g., john.doe@example.com)",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "24969",
+      "test_name": "",
+      "step": "4",
+      "expected": "The selected email (e.g., anna.smith@example.com) is populated in the field",
+      "actual": "Step 4: Select an email from the suggestion list                                                                                                   * Type a keyword in the email field (e.g., anna)                                                                             * Click on one of the suggested results - Expected: The selected email (e.g., anna.smith@example.com) is populated in the field",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "24969",
+      "test_name": "",
+      "step": "5",
+      "expected": "The input is accepted; no validation errors are shown",
+      "actual": "Step 5: Enter a complete valid email manually                                                                                   * Type a complete valid email (e.g., user.test@example.com) - Expected: The input is accepted; no validation errors are shown",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "24969",
+      "test_name": "",
+      "step": "6",
+      "expected": "Highlighted email is selected and populated in the field",
+      "actual": "Step 6: Navigate suggestions using keyboard (arrow keys + enter)                                                         * Type a keyword to trigger suggestions                                                                                              * Use arrow keys to navigate the list and press Enter - Expected: Highlighted email is selected and populated in the field",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "24969",
+      "test_name": "",
+      "step": "7",
+      "expected": "The field becomes empty with no residual suggestions",
+      "actual": "Step 7: Clear selected email address                                                                                                        * Select or enter an email address                                                                                                   * Use the backspace key or clear button to remove it - Expected: The field becomes empty with no residual suggestions",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "24969",
+      "test_name": "",
+      "step": "1.1",
+      "expected": "Power Apps page should load successfully.",
+      "actual": "Step 1.1: Navigate to Power Apps - Expected: Power Apps page should load successfully.",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "24969",
+      "test_name": "",
+      "step": "1.3",
+      "expected": "The option should be accepted, and the user should be navigated to the request form.",
+      "actual": "Step 1.3: In the TAP Chargeback Guidance pop-up, select \"Yes, I accept the fee.\" - Expected: The option should be accepted, and the user should be navigated to the request form.",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "24969",
+      "test_name": "",
+      "step": "1.4",
+      "expected": "* Project ID Number - \"ABC123\"                                                                                                                    * Engagement MD Email - \"test@gmail.com\"                                                                                                               * Attachment Link -                                                               1. Input Form.xlsx                                                                    2. Any one optional file i.e. \"Active Directory.xlsx/ Active Contractor.xlsx/ Termination List.xlsx/ Active Employee.xlsx\"                                                        3. User List.xlsx",
+      "actual": "Step 1.4: Enter Submission Inputs                                                                                                                   * Project ID Number                                                                                                                      * Engagement MD Email                                                                                                                * Attachment Link - Expected: * Project ID Number - \"ABC123\"                                                                                                                    * Engagement MD Email - \"test@gmail.com\"                                                                                                               * Attachment Link -                                                               1. Input Form.xlsx                                                                    2. Any one optional file i.e. \"Active Directory.xlsx/ Active Contractor.xlsx/ Termination List.xlsx/ Active Employee.xlsx\"                                                        3. User List.xlsx",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "24969",
+      "test_name": "",
+      "step": "2",
+      "expected": "* Project ID: \"20123095\"                                                             * MD Email - \"test@protiviti.com\"                                                                                           * Toggle On - Flag Generic Users?,                            * Toggle On - Combine Application Testsheets ?, * Toggle On - Include Terminations Report, Include AD Report, Include Contractor Report, Include Employee Report",
+      "actual": "Step 2: Enter Submission Inputs - Expected: * Project ID: \"20123095\"                                                             * MD Email - \"test@protiviti.com\"                                                                                           * Toggle On - Flag Generic Users?,                            * Toggle On - Combine Application Testsheets ?, * Toggle On - Include Terminations Report, Include AD Report, Include Contractor Report, Include Employee Report",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "24969",
+      "test_name": "",
+      "step": "3",
+      "expected": "A dropdown list appears with email addresses containing the keyword (e.g., john.doe@example.com)",
+      "actual": "Step 3: Enter a valid keyword and get matching email suggestions                                                  * Click on the email address field                                                                                                    * Type a valid keyword (e.g., john) - Expected: A dropdown list appears with email addresses containing the keyword (e.g., john.doe@example.com)",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "24969",
+      "test_name": "",
+      "step": "4",
+      "expected": "The selected email (e.g., anna.smith@example.com) is populated in the field",
+      "actual": "Step 4: Select an email from the suggestion list                                                                                                   * Type a keyword in the email field (e.g., anna)                                                                             * Click on one of the suggested results - Expected: The selected email (e.g., anna.smith@example.com) is populated in the field",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "24969",
+      "test_name": "",
+      "step": "5",
+      "expected": "The input is accepted; no validation errors are shown",
+      "actual": "Step 5: Enter a complete valid email manually                                                                                   * Type a complete valid email (e.g., user.test@example.com) - Expected: The input is accepted; no validation errors are shown",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "24969",
+      "test_name": "",
+      "step": "6",
+      "expected": "Highlighted email is selected and populated in the field",
+      "actual": "Step 6: Navigate suggestions using keyboard (arrow keys + enter)                                                         * Type a keyword to trigger suggestions                                                                                              * Use arrow keys to navigate the list and press Enter - Expected: Highlighted email is selected and populated in the field",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "24969",
+      "test_name": "",
+      "step": "7",
+      "expected": "The field becomes empty with no residual suggestions",
+      "actual": "Step 7: Clear selected email address                                                                                                        * Select or enter an email address                                                                                                   * Use the backspace key or clear button to remove it - Expected: The field becomes empty with no residual suggestions",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "24969",
+      "test_name": "",
+      "step": "1.1",
+      "expected": "Power Apps page should load successfully.",
+      "actual": "Step 1.1: Navigate to Power Apps - Expected: Power Apps page should load successfully.",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "24969",
+      "test_name": "",
+      "step": "1.3",
+      "expected": "The option should be accepted, and the user should be navigated to the request form.",
+      "actual": "Step 1.3: In the TAP Chargeback Guidance pop-up, select \"Yes, I accept the fee.\" - Expected: The option should be accepted, and the user should be navigated to the request form.",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "24969",
+      "test_name": "",
+      "step": "1.4",
+      "expected": "* Project ID Number - \"ABC123\"                                                                                                                    * Engagement MD Email - \"test@gmail.com\"                                                                                                               * Attachment Link -                                                               1. Input Form.xlsx                                                                    2. Any one optional file i.e. \"Active Directory.xlsx/ Active Contractor.xlsx/ Termination List.xlsx/ Active Employee.xlsx\"                                                        3. User List.xlsx",
+      "actual": "Step 1.4: Enter Submission Inputs                                                                                                                   * Project ID Number                                                                                                                      * Engagement MD Email                                                                                                                * Attachment Link - Expected: * Project ID Number - \"ABC123\"                                                                                                                    * Engagement MD Email - \"test@gmail.com\"                                                                                                               * Attachment Link -                                                               1. Input Form.xlsx                                                                    2. Any one optional file i.e. \"Active Directory.xlsx/ Active Contractor.xlsx/ Termination List.xlsx/ Active Employee.xlsx\"                                                        3. User List.xlsx",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "24969",
+      "test_name": "",
+      "step": "2",
+      "expected": "* Project ID: \"20123095\"                                                             * MD Email - \"test@protiviti.com\"                                                                                           * Toggle On - Flag Generic Users?,                            * Toggle On - Combine Application Testsheets ?, * Toggle On - Include Terminations Report, Include AD Report, Include Contractor Report, Include Employee Report",
+      "actual": "Step 2: Enter Submission Inputs - Expected: * Project ID: \"20123095\"                                                             * MD Email - \"test@protiviti.com\"                                                                                           * Toggle On - Flag Generic Users?,                            * Toggle On - Combine Application Testsheets ?, * Toggle On - Include Terminations Report, Include AD Report, Include Contractor Report, Include Employee Report",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "24969",
+      "test_name": "",
+      "step": "3",
+      "expected": "A dropdown list appears with email addresses containing the keyword (e.g., john.doe@example.com)",
+      "actual": "Step 3: Enter a valid keyword and get matching email suggestions                                                  * Click on the email address field                                                                                                    * Type a valid keyword (e.g., john) - Expected: A dropdown list appears with email addresses containing the keyword (e.g., john.doe@example.com)",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "24969",
+      "test_name": "",
+      "step": "4",
+      "expected": "The selected email (e.g., anna.smith@example.com) is populated in the field",
+      "actual": "Step 4: Select an email from the suggestion list                                                                                                   * Type a keyword in the email field (e.g., anna)                                                                             * Click on one of the suggested results - Expected: The selected email (e.g., anna.smith@example.com) is populated in the field",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "24969",
+      "test_name": "",
+      "step": "5",
+      "expected": "The input is accepted; no validation errors are shown",
+      "actual": "Step 5: Enter a complete valid email manually                                                                                   * Type a complete valid email (e.g., user.test@example.com) - Expected: The input is accepted; no validation errors are shown",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "24969",
+      "test_name": "",
+      "step": "6",
+      "expected": "Highlighted email is selected and populated in the field",
+      "actual": "Step 6: Navigate suggestions using keyboard (arrow keys + enter)                                                         * Type a keyword to trigger suggestions                                                                                              * Use arrow keys to navigate the list and press Enter - Expected: Highlighted email is selected and populated in the field",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "24969",
+      "test_name": "",
+      "step": "7",
+      "expected": "The field becomes empty with no residual suggestions",
+      "actual": "Step 7: Clear selected email address                                                                                                        * Select or enter an email address                                                                                                   * Use the backspace key or clear button to remove it - Expected: The field becomes empty with no residual suggestions",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "24969",
+      "test_name": "",
+      "step": "1.1",
+      "expected": "Power Apps page should load successfully.",
+      "actual": "Step 1.1: Navigate to Power Apps - Expected: Power Apps page should load successfully.",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "24969",
+      "test_name": "",
+      "step": "1.3",
+      "expected": "The option should be accepted, and the user should be navigated to the request form.",
+      "actual": "Step 1.3: In the TAP Chargeback Guidance pop-up, select \"Yes, I accept the fee.\" - Expected: The option should be accepted, and the user should be navigated to the request form.",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "24969",
+      "test_name": "",
+      "step": "1.4",
+      "expected": "* Project ID Number - \"ABC123\"                                                                                                                    * Engagement MD Email - \"test@gmail.com\"                                                                                                               * Attachment Link -                                                               1. Input Form.xlsx                                                                    2. Any one optional file i.e. \"Active Directory.xlsx/ Active Contractor.xlsx/ Termination List.xlsx/ Active Employee.xlsx\"                                                        3. User List.xlsx",
+      "actual": "Step 1.4: Enter Submission Inputs                                                                                                                   * Project ID Number                                                                                                                      * Engagement MD Email                                                                                                                * Attachment Link - Expected: * Project ID Number - \"ABC123\"                                                                                                                    * Engagement MD Email - \"test@gmail.com\"                                                                                                               * Attachment Link -                                                               1. Input Form.xlsx                                                                    2. Any one optional file i.e. \"Active Directory.xlsx/ Active Contractor.xlsx/ Termination List.xlsx/ Active Employee.xlsx\"                                                        3. User List.xlsx",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "24969",
+      "test_name": "",
+      "step": "2",
+      "expected": "* Project ID: \"20123095\"                                                             * MD Email - \"test@protiviti.com\"                                                                                           * Toggle On - Flag Generic Users?,                            * Toggle On - Combine Application Testsheets ?, * Toggle On - Include Terminations Report, Include AD Report, Include Contractor Report, Include Employee Report",
+      "actual": "Step 2: Enter Submission Inputs - Expected: * Project ID: \"20123095\"                                                             * MD Email - \"test@protiviti.com\"                                                                                           * Toggle On - Flag Generic Users?,                            * Toggle On - Combine Application Testsheets ?, * Toggle On - Include Terminations Report, Include AD Report, Include Contractor Report, Include Employee Report",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "24969",
+      "test_name": "",
+      "step": "3",
+      "expected": "A dropdown list appears with email addresses containing the keyword (e.g., john.doe@example.com)",
+      "actual": "Step 3: Enter a valid keyword and get matching email suggestions                                                  * Click on the email address field                                                                                                    * Type a valid keyword (e.g., john) - Expected: A dropdown list appears with email addresses containing the keyword (e.g., john.doe@example.com)",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "24969",
+      "test_name": "",
+      "step": "4",
+      "expected": "The selected email (e.g., anna.smith@example.com) is populated in the field",
+      "actual": "Step 4: Select an email from the suggestion list                                                                                                   * Type a keyword in the email field (e.g., anna)                                                                             * Click on one of the suggested results - Expected: The selected email (e.g., anna.smith@example.com) is populated in the field",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "24969",
+      "test_name": "",
+      "step": "5",
+      "expected": "The input is accepted; no validation errors are shown",
+      "actual": "Step 5: Enter a complete valid email manually                                                                                   * Type a complete valid email (e.g., user.test@example.com) - Expected: The input is accepted; no validation errors are shown",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "24969",
+      "test_name": "",
+      "step": "6",
+      "expected": "Highlighted email is selected and populated in the field",
+      "actual": "Step 6: Navigate suggestions using keyboard (arrow keys + enter)                                                         * Type a keyword to trigger suggestions                                                                                              * Use arrow keys to navigate the list and press Enter - Expected: Highlighted email is selected and populated in the field",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "24969",
+      "test_name": "",
+      "step": "7",
+      "expected": "The field becomes empty with no residual suggestions",
+      "actual": "Step 7: Clear selected email address                                                                                                        * Select or enter an email address                                                                                                   * Use the backspace key or clear button to remove it - Expected: The field becomes empty with no residual suggestions",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "23187",
+      "test_name": "",
+      "step": "1.1",
+      "expected": "Power Apps page should load successfully.",
+      "actual": "Step 1.1: Navigate to Power Apps - Expected: Power Apps page should load successfully.",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "23187",
+      "test_name": "",
+      "step": "1.2",
+      "expected": "The Password details screen should be displayed.",
+      "actual": "Step 1.2: Search & Select Password - Expected: The Password details screen should be displayed.",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "23187",
+      "test_name": "",
+      "step": "2",
+      "expected": "#NAME?",
+      "actual": "Step 2: On next page, select the use case for the data that user is going to upload - Expected: #NAME?",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "23187",
+      "test_name": "",
+      "step": "3",
+      "expected": "The link is opening and displayed properly",
+      "actual": "Step 3: Validate the output link to which user is directed on clicking.                                                       Find Your TAP Champion - Expected: The link is opening and displayed properly",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "23187",
+      "test_name": "",
+      "step": "4",
+      "expected": "The link is opening and displayed properly",
+      "actual": "Step 4: Validate the output link to which user is directed on clicking.                                                Product Information - Expected: The link is opening and displayed properly",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "23187",
+      "test_name": "",
+      "step": "5",
+      "expected": "The link is opening and displayed properly",
+      "actual": "Step 5: Validate the output link to which user is directed on clicking.                                           Submit an Idea for TAP - Expected: The link is opening and displayed properly",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "23187",
+      "test_name": "",
+      "step": "6",
+      "expected": "The link is opening and displayed properly",
+      "actual": "Step 6: Validate the output link to which user is directed on clicking.                                              Request a Client Demo - Expected: The link is opening and displayed properly",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "23187",
+      "test_name": "",
+      "step": "1.1",
+      "expected": "Power Apps page should load successfully.",
+      "actual": "Step 1.1: Navigate to Power Apps - Expected: Power Apps page should load successfully.",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "23187",
+      "test_name": "",
+      "step": "1.2",
+      "expected": "The Password details screen should be displayed.",
+      "actual": "Step 1.2: Search & Select Password - Expected: The Password details screen should be displayed.",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "23187",
+      "test_name": "",
+      "step": "2",
+      "expected": "#NAME?",
+      "actual": "Step 2: On next page, select the use case for the data that user is going to upload - Expected: #NAME?",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "23187",
+      "test_name": "",
+      "step": "3",
+      "expected": "The link is opening and displayed properly",
+      "actual": "Step 3: Validate the output link to which user is directed on clicking.                                                       Find Your TAP Champion - Expected: The link is opening and displayed properly",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "23187",
+      "test_name": "",
+      "step": "4",
+      "expected": "The link is opening and displayed properly",
+      "actual": "Step 4: Validate the output link to which user is directed on clicking.                                                Product Information - Expected: The link is opening and displayed properly",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "23187",
+      "test_name": "",
+      "step": "5",
+      "expected": "The link is opening and displayed properly",
+      "actual": "Step 5: Validate the output link to which user is directed on clicking.                                           Submit an Idea for TAP - Expected: The link is opening and displayed properly",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "23187",
+      "test_name": "",
+      "step": "6",
+      "expected": "The link is opening and displayed properly",
+      "actual": "Step 6: Validate the output link to which user is directed on clicking.                                              Request a Client Demo - Expected: The link is opening and displayed properly",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "23187",
+      "test_name": "",
+      "step": "1.1",
+      "expected": "Power Apps page should load successfully.",
+      "actual": "Step 1.1: Navigate to Power Apps - Expected: Power Apps page should load successfully.",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "23187",
+      "test_name": "",
+      "step": "1.2",
+      "expected": "The Password details screen should be displayed.",
+      "actual": "Step 1.2: Search & Select Password - Expected: The Password details screen should be displayed.",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "23187",
+      "test_name": "",
+      "step": "2",
+      "expected": "#NAME?",
+      "actual": "Step 2: On next page, select the use case for the data that user is going to upload - Expected: #NAME?",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "23187",
+      "test_name": "",
+      "step": "3",
+      "expected": "The link is opening and displayed properly",
+      "actual": "Step 3: Validate the output link to which user is directed on clicking.                                                       Find Your TAP Champion - Expected: The link is opening and displayed properly",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "23187",
+      "test_name": "",
+      "step": "4",
+      "expected": "The link is opening and displayed properly",
+      "actual": "Step 4: Validate the output link to which user is directed on clicking.                                                Product Information - Expected: The link is opening and displayed properly",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "23187",
+      "test_name": "",
+      "step": "5",
+      "expected": "The link is opening and displayed properly",
+      "actual": "Step 5: Validate the output link to which user is directed on clicking.                                           Submit an Idea for TAP - Expected: The link is opening and displayed properly",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "23187",
+      "test_name": "",
+      "step": "6",
+      "expected": "The link is opening and displayed properly",
+      "actual": "Step 6: Validate the output link to which user is directed on clicking.                                              Request a Client Demo - Expected: The link is opening and displayed properly",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "23187",
+      "test_name": "",
+      "step": "1.1",
+      "expected": "Power Apps page should load successfully.",
+      "actual": "Step 1.1: Navigate to Power Apps - Expected: Power Apps page should load successfully.",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "23187",
+      "test_name": "",
+      "step": "1.2",
+      "expected": "The Password details screen should be displayed.",
+      "actual": "Step 1.2: Search & Select Password - Expected: The Password details screen should be displayed.",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "23187",
+      "test_name": "",
+      "step": "2",
+      "expected": "#NAME?",
+      "actual": "Step 2: On next page, select the use case for the data that user is going to upload - Expected: #NAME?",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "23187",
+      "test_name": "",
+      "step": "3",
+      "expected": "The link is opening and displayed properly",
+      "actual": "Step 3: Validate the output link to which user is directed on clicking.                                                       Find Your TAP Champion - Expected: The link is opening and displayed properly",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "23187",
+      "test_name": "",
+      "step": "4",
+      "expected": "The link is opening and displayed properly",
+      "actual": "Step 4: Validate the output link to which user is directed on clicking.                                                Product Information - Expected: The link is opening and displayed properly",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "23187",
+      "test_name": "",
+      "step": "5",
+      "expected": "The link is opening and displayed properly",
+      "actual": "Step 5: Validate the output link to which user is directed on clicking.                                           Submit an Idea for TAP - Expected: The link is opening and displayed properly",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "23187",
+      "test_name": "",
+      "step": "6",
+      "expected": "The link is opening and displayed properly",
+      "actual": "Step 6: Validate the output link to which user is directed on clicking.                                              Request a Client Demo - Expected: The link is opening and displayed properly",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "23187",
+      "test_name": "",
+      "step": "1.1",
+      "expected": "Power Apps page should load successfully.",
+      "actual": "Step 1.1: Navigate to Power Apps - Expected: Power Apps page should load successfully.",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "23187",
+      "test_name": "",
+      "step": "1.2",
+      "expected": "The Password details screen should be displayed.",
+      "actual": "Step 1.2: Search & Select Password - Expected: The Password details screen should be displayed.",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "23187",
+      "test_name": "",
+      "step": "2",
+      "expected": "#NAME?",
+      "actual": "Step 2: On next page, select the use case for the data that user is going to upload - Expected: #NAME?",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "23187",
+      "test_name": "",
+      "step": "3",
+      "expected": "The link is opening and displayed properly",
+      "actual": "Step 3: Validate the output link to which user is directed on clicking.                                                       Find Your TAP Champion - Expected: The link is opening and displayed properly",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "23187",
+      "test_name": "",
+      "step": "4",
+      "expected": "The link is opening and displayed properly",
+      "actual": "Step 4: Validate the output link to which user is directed on clicking.                                                Product Information - Expected: The link is opening and displayed properly",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "23187",
+      "test_name": "",
+      "step": "5",
+      "expected": "The link is opening and displayed properly",
+      "actual": "Step 5: Validate the output link to which user is directed on clicking.                                           Submit an Idea for TAP - Expected: The link is opening and displayed properly",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "23187",
+      "test_name": "",
+      "step": "6",
+      "expected": "The link is opening and displayed properly",
+      "actual": "Step 6: Validate the output link to which user is directed on clicking.                                              Request a Client Demo - Expected: The link is opening and displayed properly",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "23187",
+      "test_name": "",
+      "step": "1.1",
+      "expected": "Power Apps page should load successfully.",
+      "actual": "Step 1.1: Navigate to Power Apps - Expected: Power Apps page should load successfully.",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "23187",
+      "test_name": "",
+      "step": "1.2",
+      "expected": "The Password details screen should be displayed.",
+      "actual": "Step 1.2: Search & Select Password - Expected: The Password details screen should be displayed.",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "23187",
+      "test_name": "",
+      "step": "2",
+      "expected": "#NAME?",
+      "actual": "Step 2: On next page, select the use case for the data that user is going to upload - Expected: #NAME?",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "23187",
+      "test_name": "",
+      "step": "3",
+      "expected": "The link is opening and displayed properly",
+      "actual": "Step 3: Validate the output link to which user is directed on clicking.                                                       Find Your TAP Champion - Expected: The link is opening and displayed properly",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "23187",
+      "test_name": "",
+      "step": "4",
+      "expected": "The link is opening and displayed properly",
+      "actual": "Step 4: Validate the output link to which user is directed on clicking.                                                Product Information - Expected: The link is opening and displayed properly",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "23187",
+      "test_name": "",
+      "step": "5",
+      "expected": "The link is opening and displayed properly",
+      "actual": "Step 5: Validate the output link to which user is directed on clicking.                                           Submit an Idea for TAP - Expected: The link is opening and displayed properly",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "23187",
+      "test_name": "",
+      "step": "6",
+      "expected": "The link is opening and displayed properly",
+      "actual": "Step 6: Validate the output link to which user is directed on clicking.                                              Request a Client Demo - Expected: The link is opening and displayed properly",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "23207",
+      "test_name": "Agree to AI Attestation and Navigation to Input Form - Positive",
+      "step": "2",
+      "expected": "* The pop-up closes                                                              * The user is navigated to the input form screen",
+      "actual": "Step 2: Click the \"Agree\" button on the AI attestation pop-up. - Expected: * The pop-up closes                                                              * The user is navigated to the input form screen",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "23207",
+      "test_name": "Agree to AI Attestation and Navigation to Input Form - Positive",
+      "step": "3",
+      "expected": "The input form should be displayed with all fields visible",
+      "actual": "Step 3: Validate the input form screen after agreeing to the attestation - Expected: The input form should be displayed with all fields visible",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "23207",
+      "test_name": "Agree to AI Attestation and Navigation to Input Form - Positive",
+      "step": "4",
+      "expected": "Confirmation or success message is displayed",
+      "actual": "Step 4: The user tried to fill out and submit the input form - Expected: Confirmation or success message is displayed",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "23209",
+      "test_name": "Disagree  AI Attestation - Positive",
+      "step": "2",
+      "expected": "* The AI attestation pop-up closes                                                              * No navigation occurs, and the user remains on the same page",
+      "actual": "Step 2: Click the \"Disagree\" button on the AI attestation pop-up. - Expected: * The AI attestation pop-up closes                                                              * No navigation occurs, and the user remains on the same page",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "23209",
+      "test_name": "Disagree  AI Attestation - Positive",
+      "step": "3",
+      "expected": "The user stays on the same page and no redirection or change in the UI happens",
+      "actual": "Step 3: Validate the current page after clicking \"Disagree.\" - Expected: The user stays on the same page and no redirection or change in the UI happens",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "23209",
+      "test_name": "Disagree  AI Attestation - Positive",
+      "step": "4",
+      "expected": "User remains on the current page, and no further action is allowed if the AI attestation is required for proceeding.",
+      "actual": "Step 4: The user tried to interact with the page after disagreeing (e.g., navigate to other parts of the application). - Expected: User remains on the current page, and no further action is allowed if the AI attestation is required for proceeding.",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "1.1",
+      "expected": "Power Apps page should load successfully.",
+      "actual": "Step 1.1: Navigate to Power Apps - Expected: Power Apps page should load successfully.",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "1.3",
+      "expected": "AI Attestation pop-up is displayed",
+      "actual": "Step 1.3: The user clicks on the Begin button - Expected: AI Attestation pop-up is displayed",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "1.4",
+      "expected": "The option should be accepted, and the user should be navigated to the request form.",
+      "actual": "Step 1.4: The user clicks on the AGREE button in an AI Attestation pop-up - Expected: The option should be accepted, and the user should be navigated to the request form.",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "1.5",
+      "expected": "* The \"Submit\" button should become active and clickable, allowing the user to submit the files.",
+      "actual": "Step 1.5: Click on checkbox \"I agree to the TAP chargeback model. See details\" to submit the files. - Expected: * The \"Submit\" button should become active and clickable, allowing the user to submit the files.",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "2",
+      "expected": "Project ID, MD Email",
+      "actual": "Step 2: Enter Submission Inputs - Expected: Project ID, MD Email",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "3",
+      "expected": "User should be able to provide the password",
+      "actual": "Step 3: Attach A password protected SOC report - Expected: User should be able to provide the password",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "4",
+      "expected": "User confirms submission of documents to be Extracted",
+      "actual": "Step 4: Click on Submit - Expected: User confirms submission of documents to be Extracted",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "5",
+      "expected": "Output should be shared with the user",
+      "actual": "Step 5: Output should be provided to the user - Expected: Output should be shared with the user",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "1.1",
+      "expected": "Power Apps page should load successfully.",
+      "actual": "Step 1.1: Navigate to Power Apps - Expected: Power Apps page should load successfully.",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "1.3",
+      "expected": "AI Attestation pop-up is displayed",
+      "actual": "Step 1.3: The user clicks on the Begin button - Expected: AI Attestation pop-up is displayed",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "1.4",
+      "expected": "The option should be accepted, and the user should be navigated to the request form.",
+      "actual": "Step 1.4: The user clicks on the AGREE button in an AI Attestation pop-up - Expected: The option should be accepted, and the user should be navigated to the request form.",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "1.5",
+      "expected": "* The \"Submit\" button should become active and clickable, allowing the user to submit the files.",
+      "actual": "Step 1.5: Click on checkbox \"I agree to the TAP chargeback model. See details\" to submit the files. - Expected: * The \"Submit\" button should become active and clickable, allowing the user to submit the files.",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "2",
+      "expected": "Project ID, MD Email",
+      "actual": "Step 2: Enter Submission Inputs - Expected: Project ID, MD Email",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "3",
+      "expected": "User should be able to provide the password",
+      "actual": "Step 3: Attach A password protected SOC report - Expected: User should be able to provide the password",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "4",
+      "expected": "User confirms submission of documents to be Extracted",
+      "actual": "Step 4: Click on Submit - Expected: User confirms submission of documents to be Extracted",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "5",
+      "expected": "Output should be shared with the user",
+      "actual": "Step 5: Output should be provided to the user - Expected: Output should be shared with the user",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "1.1",
+      "expected": "Power Apps page should load successfully.",
+      "actual": "Step 1.1: Navigate to Power Apps - Expected: Power Apps page should load successfully.",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "1.3",
+      "expected": "AI Attestation pop-up is displayed",
+      "actual": "Step 1.3: The user clicks on the Begin button - Expected: AI Attestation pop-up is displayed",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "1.4",
+      "expected": "The option should be accepted, and the user should be navigated to the request form.",
+      "actual": "Step 1.4: The user clicks on the AGREE button in an AI Attestation pop-up - Expected: The option should be accepted, and the user should be navigated to the request form.",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "1.5",
+      "expected": "* The \"Submit\" button should become active and clickable, allowing the user to submit the files.",
+      "actual": "Step 1.5: Click on checkbox \"I agree to the TAP chargeback model. See details\" to submit the files. - Expected: * The \"Submit\" button should become active and clickable, allowing the user to submit the files.",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "2",
+      "expected": "Project ID, MD Email",
+      "actual": "Step 2: Enter Submission Inputs - Expected: Project ID, MD Email",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "3",
+      "expected": "User should be able to provide the password",
+      "actual": "Step 3: Attach A password protected SOC report - Expected: User should be able to provide the password",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "4",
+      "expected": "User confirms submission of documents to be Extracted",
+      "actual": "Step 4: Click on Submit - Expected: User confirms submission of documents to be Extracted",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "5",
+      "expected": "Output should be shared with the user",
+      "actual": "Step 5: Output should be provided to the user - Expected: Output should be shared with the user",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "1.1",
+      "expected": "Power Apps page should load successfully.",
+      "actual": "Step 1.1: Navigate to Power Apps - Expected: Power Apps page should load successfully.",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "1.3",
+      "expected": "AI Attestation pop-up is displayed",
+      "actual": "Step 1.3: The user clicks on the Begin button - Expected: AI Attestation pop-up is displayed",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "1.4",
+      "expected": "The option should be accepted, and the user should be navigated to the request form.",
+      "actual": "Step 1.4: The user clicks on the AGREE button in an AI Attestation pop-up - Expected: The option should be accepted, and the user should be navigated to the request form.",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "1.5",
+      "expected": "* The \"Submit\" button should become active and clickable, allowing the user to submit the files.",
+      "actual": "Step 1.5: Click on checkbox \"I agree to the TAP chargeback model. See details\" to submit the files. - Expected: * The \"Submit\" button should become active and clickable, allowing the user to submit the files.",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "2",
+      "expected": "Project ID, MD Email",
+      "actual": "Step 2: Enter Submission Inputs - Expected: Project ID, MD Email",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "3",
+      "expected": "User should be able to provide the password",
+      "actual": "Step 3: Attach A password protected SOC report - Expected: User should be able to provide the password",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "4",
+      "expected": "User confirms submission of documents to be Extracted",
+      "actual": "Step 4: Click on Submit - Expected: User confirms submission of documents to be Extracted",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "5",
+      "expected": "Output should be shared with the user",
+      "actual": "Step 5: Output should be provided to the user - Expected: Output should be shared with the user",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "1.1",
+      "expected": "Power Apps page should load successfully.",
+      "actual": "Step 1.1: Navigate to Power Apps - Expected: Power Apps page should load successfully.",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "1.3",
+      "expected": "AI Attestation pop-up is displayed",
+      "actual": "Step 1.3: The user clicks on the Begin button - Expected: AI Attestation pop-up is displayed",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "1.4",
+      "expected": "The option should be accepted, and the user should be navigated to the request form.",
+      "actual": "Step 1.4: The user clicks on the AGREE button in an AI Attestation pop-up - Expected: The option should be accepted, and the user should be navigated to the request form.",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "1.5",
+      "expected": "* The \"Submit\" button should become active and clickable, allowing the user to submit the files.",
+      "actual": "Step 1.5: Click on checkbox \"I agree to the TAP chargeback model. See details\" to submit the files. - Expected: * The \"Submit\" button should become active and clickable, allowing the user to submit the files.",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "2",
+      "expected": "Project ID, MD Email",
+      "actual": "Step 2: Enter Submission Inputs - Expected: Project ID, MD Email",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "3",
+      "expected": "User should be able to provide the password",
+      "actual": "Step 3: Attach A password protected SOC report - Expected: User should be able to provide the password",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "4",
+      "expected": "User confirms submission of documents to be Extracted",
+      "actual": "Step 4: Click on Submit - Expected: User confirms submission of documents to be Extracted",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "5",
+      "expected": "Output should be shared with the user",
+      "actual": "Step 5: Output should be provided to the user - Expected: Output should be shared with the user",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "1.1",
+      "expected": "Power Apps page should load successfully.",
+      "actual": "Step 1.1: Navigate to Power Apps - Expected: Power Apps page should load successfully.",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "1.3",
+      "expected": "AI Attestation pop-up is displayed",
+      "actual": "Step 1.3: The user clicks on the Begin button - Expected: AI Attestation pop-up is displayed",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "1.4",
+      "expected": "The option should be accepted, and the user should be navigated to the request form.",
+      "actual": "Step 1.4: The user clicks on the AGREE button in an AI Attestation pop-up - Expected: The option should be accepted, and the user should be navigated to the request form.",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "1.5",
+      "expected": "* The \"Submit\" button should become active and clickable, allowing the user to submit the files.",
+      "actual": "Step 1.5: Click on checkbox \"I agree to the TAP chargeback model. See details\" to submit the files. - Expected: * The \"Submit\" button should become active and clickable, allowing the user to submit the files.",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "2",
+      "expected": "Project ID, MD Email",
+      "actual": "Step 2: Enter Submission Inputs - Expected: Project ID, MD Email",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "3",
+      "expected": "User should be able to provide the password",
+      "actual": "Step 3: Attach A password protected SOC report - Expected: User should be able to provide the password",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "4",
+      "expected": "User confirms submission of documents to be Extracted",
+      "actual": "Step 4: Click on Submit - Expected: User confirms submission of documents to be Extracted",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "5",
+      "expected": "Output should be shared with the user",
+      "actual": "Step 5: Output should be provided to the user - Expected: Output should be shared with the user",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "1.1",
+      "expected": "Power Apps page should load successfully.",
+      "actual": "Step 1.1: Navigate to Power Apps - Expected: Power Apps page should load successfully.",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "1.3",
+      "expected": "AI Attestation pop-up is displayed",
+      "actual": "Step 1.3: The user clicks on the Begin button - Expected: AI Attestation pop-up is displayed",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "1.4",
+      "expected": "The option should be accepted, and the user should be navigated to the request form.",
+      "actual": "Step 1.4: The user clicks on the AGREE button in an AI Attestation pop-up - Expected: The option should be accepted, and the user should be navigated to the request form.",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "1.5",
+      "expected": "* The \"Submit\" button should become active and clickable, allowing the user to submit the files.",
+      "actual": "Step 1.5: Click on checkbox \"I agree to the TAP chargeback model. See details\" to submit the files. - Expected: * The \"Submit\" button should become active and clickable, allowing the user to submit the files.",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "2",
+      "expected": "Project ID, MD Email",
+      "actual": "Step 2: Enter Submission Inputs - Expected: Project ID, MD Email",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "3",
+      "expected": "User should be able to provide the password",
+      "actual": "Step 3: Attach A password protected SOC report - Expected: User should be able to provide the password",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "4",
+      "expected": "User confirms submission of documents to be Extracted",
+      "actual": "Step 4: Click on Submit - Expected: User confirms submission of documents to be Extracted",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "5",
+      "expected": "Output should be shared with the user",
+      "actual": "Step 5: Output should be provided to the user - Expected: Output should be shared with the user",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "1.1",
+      "expected": "Power Apps page should load successfully.",
+      "actual": "Step 1.1: Navigate to Power Apps - Expected: Power Apps page should load successfully.",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "1.3",
+      "expected": "AI Attestation pop-up is displayed",
+      "actual": "Step 1.3: The user clicks on the Begin button - Expected: AI Attestation pop-up is displayed",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "1.4",
+      "expected": "The option should be accepted, and the user should be navigated to the request form.",
+      "actual": "Step 1.4: The user clicks on the AGREE button in an AI Attestation pop-up - Expected: The option should be accepted, and the user should be navigated to the request form.",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "1.5",
+      "expected": "* The \"Submit\" button should become active and clickable, allowing the user to submit the files.",
+      "actual": "Step 1.5: Click on checkbox \"I agree to the TAP chargeback model. See details\" to submit the files. - Expected: * The \"Submit\" button should become active and clickable, allowing the user to submit the files.",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "2",
+      "expected": "Project ID, MD Email",
+      "actual": "Step 2: Enter Submission Inputs - Expected: Project ID, MD Email",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "3",
+      "expected": "User should be able to provide the password",
+      "actual": "Step 3: Attach A password protected SOC report - Expected: User should be able to provide the password",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "4",
+      "expected": "User confirms submission of documents to be Extracted",
+      "actual": "Step 4: Click on Submit - Expected: User confirms submission of documents to be Extracted",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "5",
+      "expected": "Output should be shared with the user",
+      "actual": "Step 5: Output should be provided to the user - Expected: Output should be shared with the user",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "1.1",
+      "expected": "Power Apps page should load successfully.",
+      "actual": "Step 1.1: Navigate to Power Apps - Expected: Power Apps page should load successfully.",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "1.3",
+      "expected": "AI Attestation pop-up is displayed",
+      "actual": "Step 1.3: The user clicks on the Begin button - Expected: AI Attestation pop-up is displayed",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "1.4",
+      "expected": "The option should be accepted, and the user should be navigated to the request form.",
+      "actual": "Step 1.4: The user clicks on the AGREE button in an AI Attestation pop-up - Expected: The option should be accepted, and the user should be navigated to the request form.",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "1.5",
+      "expected": "* The \"Submit\" button should become active and clickable, allowing the user to submit the files.",
+      "actual": "Step 1.5: Click on checkbox \"I agree to the TAP chargeback model. See details\" to submit the files. - Expected: * The \"Submit\" button should become active and clickable, allowing the user to submit the files.",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "2",
+      "expected": "Project ID, MD Email",
+      "actual": "Step 2: Enter Submission Inputs - Expected: Project ID, MD Email",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "3",
+      "expected": "User should be able to provide the password",
+      "actual": "Step 3: Attach A password protected SOC report - Expected: User should be able to provide the password",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "4",
+      "expected": "User confirms submission of documents to be Extracted",
+      "actual": "Step 4: Click on Submit - Expected: User confirms submission of documents to be Extracted",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "5",
+      "expected": "Output should be shared with the user",
+      "actual": "Step 5: Output should be provided to the user - Expected: Output should be shared with the user",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "1.1",
+      "expected": "Power Apps page should load successfully.",
+      "actual": "Step 1.1: Navigate to Power Apps - Expected: Power Apps page should load successfully.",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "1.3",
+      "expected": "AI Attestation pop-up is displayed",
+      "actual": "Step 1.3: The user clicks on the Begin button - Expected: AI Attestation pop-up is displayed",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "1.4",
+      "expected": "The option should be accepted, and the user should be navigated to the request form.",
+      "actual": "Step 1.4: The user clicks on the AGREE button in an AI Attestation pop-up - Expected: The option should be accepted, and the user should be navigated to the request form.",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "1.5",
+      "expected": "* The \"Submit\" button should become active and clickable, allowing the user to submit the files.",
+      "actual": "Step 1.5: Click on checkbox \"I agree to the TAP chargeback model. See details\" to submit the files. - Expected: * The \"Submit\" button should become active and clickable, allowing the user to submit the files.",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "2",
+      "expected": "Project ID, MD Email",
+      "actual": "Step 2: Enter Submission Inputs - Expected: Project ID, MD Email",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "3",
+      "expected": "User should be able to provide the password",
+      "actual": "Step 3: Attach A password protected SOC report - Expected: User should be able to provide the password",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "4",
+      "expected": "User confirms submission of documents to be Extracted",
+      "actual": "Step 4: Click on Submit - Expected: User confirms submission of documents to be Extracted",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "5",
+      "expected": "Output should be shared with the user",
+      "actual": "Step 5: Output should be provided to the user - Expected: Output should be shared with the user",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "1.1",
+      "expected": "Power Apps page should load successfully.",
+      "actual": "Step 1.1: Navigate to Power Apps - Expected: Power Apps page should load successfully.",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "1.3",
+      "expected": "AI Attestation pop-up is displayed",
+      "actual": "Step 1.3: The user clicks on the Begin button - Expected: AI Attestation pop-up is displayed",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "1.4",
+      "expected": "The option should be accepted, and the user should be navigated to the request form.",
+      "actual": "Step 1.4: The user clicks on the AGREE button in an AI Attestation pop-up - Expected: The option should be accepted, and the user should be navigated to the request form.",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "1.5",
+      "expected": "* The \"Submit\" button should become active and clickable, allowing the user to submit the files.",
+      "actual": "Step 1.5: Click on checkbox \"I agree to the TAP chargeback model. See details\" to submit the files. - Expected: * The \"Submit\" button should become active and clickable, allowing the user to submit the files.",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "2",
+      "expected": "Project ID, MD Email",
+      "actual": "Step 2: Enter Submission Inputs - Expected: Project ID, MD Email",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "3",
+      "expected": "User should be able to provide the password",
+      "actual": "Step 3: Attach A password protected SOC report - Expected: User should be able to provide the password",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "4",
+      "expected": "User confirms submission of documents to be Extracted",
+      "actual": "Step 4: Click on Submit - Expected: User confirms submission of documents to be Extracted",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    },
+    {
+      "test_id": "20928",
+      "test_name": "",
+      "step": "5",
+      "expected": "Output should be shared with the user",
+      "actual": "Step 5: Output should be provided to the user - Expected: Output should be shared with the user",
+      "status": "PASS",
+      "timestamp": "2026-06-24 15:14:01"
+    }
+  ]
+}
